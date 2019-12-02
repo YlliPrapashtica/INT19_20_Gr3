@@ -14,8 +14,6 @@ body{
     right: 30px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid red;
-    background-color: red;
 }
 
 #main li{
@@ -23,17 +21,27 @@ body{
     list-style: none;
     display: inline-block;
 }
+.box{
+    
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 10px;
+    margin: -4px;
+    padding: 10px 2px;
+    margin-top: 0%;
+}
 .box a{
     color: white;
-    border-radius: 10px;
-    padding: 10px; 
     padding-right: 40px;
-    margin: -4px;
+    padding: 13px;
+    margin: 5px -4px;
+    
    
 }
 .box a:hover{
     background-color: rgb(90, 3, 3);
     color: wheat;
+    border-radius: 10px;
 }
 header h2{
     padding-top: 15px;
@@ -46,4 +54,7 @@ div {
     border: 1px solid darkgray;
     position: relative;
     width: 100%;
+}
+header p{
+    padding-left: 30px;
 }
