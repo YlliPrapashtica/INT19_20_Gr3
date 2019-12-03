@@ -52,6 +52,7 @@ header h2{
 }
 
 div {
+    border-top: 1px;
     text-align: center;
     margin-top: 100px;
     border: 1px solid darkgray;
@@ -70,6 +71,9 @@ legend {
      padding: 5px 20px;
      color: #eee8aa;
      font-size: 20px;
+}
+fieldset{
+  border-bottom: 1px;
 }
 button {
   color: white;
@@ -95,7 +99,7 @@ button {
 }
 
 .three_third{
-  width:990px;
+  width: 990px;
   float:none;
   margin-right:0;
   clear:both;
@@ -104,7 +108,46 @@ button {
 .lastbox{
   margin-right: 0;
 }
-
+figure {
+  display: inline;
+  float: left;
+}
 .more a{
   color: red;
+}
+
+#latest article figure ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#latest article figure ul li img{
+  padding:4px;
+  border:1px
+  solid #D6D6D6;
+}
+.one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{
+  display:block;
+  float:left;
+  margin:10px 20px 10px 20px;
+}
+.one_fifth{
+  width:220px;
+}
+.two_fifth{
+  width: 430px;
+}
+
+.three_fifth{
+  width: 640px;
+}
+.four_fifth{
+  width: 850px;
+}
+.five_fifth{
+  width: 1060px;
+  float: none;
+  margin-right: 0;
+  clear: both;
 }
