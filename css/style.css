@@ -9,6 +9,9 @@ body{
     font-family: 'Old Standard TT', serif;
     font-weight: 400;
 }
+section em{
+  font-family: "Copperplate Gothic Light", serif;
+}
 #main{
     position: absolute;
     right: 30px;
@@ -17,14 +20,14 @@ body{
 }
 
 #main li{
-    
+
     list-style: none;
     display: inline-block;
 }
 .box{
-    
-    border: 1px solid red;
-    background-color: red;
+
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
     border-radius: 10px;
     margin: -4px;
     padding: 10px 2px;
@@ -35,8 +38,8 @@ body{
     padding-right: 40px;
     padding: 13px;
     margin: 5px -4px;
-    
-   
+    text-decoration: none;
+
 }
 .box a:hover{
     background-color: rgb(90, 3, 3);
@@ -57,4 +60,51 @@ div {
 }
 header p{
     padding-left: 30px;
+}
+legend {
+  display: table;
+     min-width: 0px;
+     max-width: 70%;
+     position: relative;
+     margin: auto;
+     padding: 5px 20px;
+     color: #eee8aa;
+     font-size: 20px;
+}
+button {
+  color: white;
+  padding: 4px 20px;
+  border-radius: 10px;
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
+  font-family: 'Old Standard TT', serif;
+}
+
+.one_third, .two_third, .three_third{
+  display:block;
+  float:left;
+  margin:20px 50px 20px 80px;
+}
+
+.one_third{
+  width:330px;
+}
+
+.two_third{
+  width:660px;
+}
+
+.three_third{
+  width:990px;
+  float:none;
+  margin-right:0;
+  clear:both;
+}
+
+.lastbox{
+  margin-right: 0;
+}
+
+.more a{
+  color: red;
 }
