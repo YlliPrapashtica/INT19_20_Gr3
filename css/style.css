@@ -87,19 +87,19 @@ button {
 .one_third, .two_third, .three_third{
   display:block;
   float:left;
-  margin:20px 50px 20px 80px;
+  margin:20px 30px 20px 45px;
 }
 
 .one_third{
-  width:330px;
+  width:270px;
 }
 
 .two_third{
-  width:660px;
+  width:600px;
 }
 
 .three_third{
-  width: 990px;
+  width: 930px;
   float:none;
   margin-right:0;
   clear:both;
@@ -130,20 +130,20 @@ figure {
 .one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{
   display:block;
   float:left;
-  margin:10px 20px 10px 20px;
+  margin:10px 10px 10px 20px;
 }
 .one_fifth{
-  width:220px;
+  width:180px;
 }
 .two_fifth{
-  width: 430px;
+  width: 370px;
 }
 
 .three_fifth{
-  width: 640px;
+  width: 580px;
 }
 .four_fifth{
-  width: 850px;
+  width: 790px;
 }
 .five_fifth{
   width: 1060px;
