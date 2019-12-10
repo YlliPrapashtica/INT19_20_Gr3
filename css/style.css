@@ -51,13 +51,17 @@ header h2{
     padding-left:3em;
 }
 
-div {
+#firstdiv {
     border-top: 1px;
     text-align: center;
     margin-top: 100px;
     border: 1px solid darkgray;
     position: relative;
     width: 100%;
+}
+#firstdiv p {
+  margin: 20px;
+  font-size: 20px;
 }
 header p{
     padding-left: 30px;
@@ -87,7 +91,7 @@ button {
 .one_third, .two_third, .three_third{
   display:block;
   float:left;
-  margin:20px 30px 20px 45px;
+  margin:25px 30px 25px 45px;
 }
 
 .one_third{
@@ -130,7 +134,7 @@ figure {
 .one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{
   display:block;
   float:left;
-  margin:10px 10px 10px 20px;
+  margin:25px 10px 25px 20px;
 }
 .one_fifth{
   width:180px;
@@ -208,6 +212,9 @@ figure {
   text-align: left;
   font-family: calibri;
 }
+#emailtext {
+  color: #E2494B;
+}
 #content #contactform #contactformclientfirst input{
   margin: 15px 0px 5px 0px;
   font-family: 'Old Standard TT', serif;
@@ -240,4 +247,30 @@ figure {
   background-color: #E2494B;
   margin: 5px 0px;
   font-family: 'Old Standard TT', serif;
+}
+#footer{
+  padding: 5px 0px;
+  background-color: #E2E2E2;
+}
+#footer p{
+  margin:12px 2px;
+  padding:0;
+  font-size: 12px;
+  color: #A0A0A0;
+}
+#footer a{
+  color: #A0A0A0;
+  text-decoration: none;
+}
+#footer #fl_left{
+  float: left;
+}
+#footer #fl_right{
+  float: right;
+}
+hr {
+  background-color: white;
+  padding: 0.1px;
+  border: none;
+  width: 100%
 }
