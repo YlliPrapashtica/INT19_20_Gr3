@@ -51,13 +51,17 @@ header h2{
     padding-left:3em;
 }
 
-div {
+#firstdiv {
     border-top: 1px;
     text-align: center;
     margin-top: 100px;
     border: 1px solid darkgray;
     position: relative;
     width: 100%;
+}
+#firstdiv p {
+  margin: 20px;
+  font-size: 20px;
 }
 header p{
     padding-left: 30px;
@@ -87,7 +91,7 @@ button {
 .one_third, .two_third, .three_third{
   display:block;
   float:left;
-  margin:20px 30px 20px 45px;
+  margin:25px 30px 25px 45px;
 }
 
 .one_third{
@@ -130,7 +134,7 @@ figure {
 .one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{
   display:block;
   float:left;
-  margin:10px 10px 10px 20px;
+  margin:25px 10px 25px 20px;
 }
 .one_fifth{
   width:180px;
@@ -150,4 +154,123 @@ figure {
   float: none;
   margin-right: 0;
   clear: both;
+}
+
+#content{
+  border: 0;
+  background: #E2E2E2;
+  float:left;
+  width:100%;
+}
+
+#content table{
+  padding: 30px 50px;
+  font-size:16px;
+  text-align: left;
+  font-family:corbel;
+}
+
+#content #posts ul li{
+  display: block;
+  padding: 20px 0px 0px 0px;
+  width: 470px;
+  margin: 0px;
+}
+
+#content #posts ul li article figure{
+  margin: 0px 0px 25px 0px;
+}
+
+#content #posts ul li article figure img{
+  float:left;
+  margin:0;
+  padding:4px;
+  border:1px
+  solid #8F8F8F;
+}
+
+#content #posts ul li article figure figcaption{
+  color: #A0A0A0;
+  margin:5px 25px 5px 25px;
+  display: block;
+  float: right;
+  width: 300px;
+  font-size: 12px;
+  text-align: left;
+  font-family: calibri;
+}
+
+#content #posts ul li article figure figcaption h4{
+  color: #E2494B;
+  margin: 0px 0px 5px 0px;
+}
+#content #companydetails{
+  color: #A0A0A0;
+  width: 200px;
+  margin:5px 25px 5px 25px;
+  font-size: 12px;
+  text-align: left;
+  font-family: calibri;
+}
+#emailtext {
+  color: #E2494B;
+}
+#content #contactform #contactformclientfirst input{
+  margin: 15px 0px 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 225px;
+  padding: 4px;
+}
+#content #contactform #contactformclientsecond input{
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 225px;
+  padding: 4px;
+}
+#content #contactform #subject{
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 225px;
+  padding: 4px;
+}
+#content #contactform #buttoncontactform input{
+  color: white;
+  padding: 4px 20px;
+  border-radius: 10px;
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+}
+#footer{
+  padding: 5px 0px;
+  background-color: #E2E2E2;
+}
+#footer p{
+  margin:12px 2px;
+  padding:0;
+  font-size: 12px;
+  color: #A0A0A0;
+}
+#footer a{
+  color: #A0A0A0;
+  text-decoration: none;
+}
+#footer #fl_left{
+  float: left;
+}
+#footer #fl_right{
+  float: right;
+}
+hr {
+  background-color: white;
+  padding: 0.1px;
+  border: none;
+  width: 100%
 }
