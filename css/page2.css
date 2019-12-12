@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+}
+section em{
+  font-family: "Copperplate Gothic Light", serif;
+}
+#main{
+    position: absolute;
+    right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#main li{
+
+    list-style: none;
+    display: inline-block;
+}
+.box{
+
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
+    border-radius: 10px;
+    margin: -4px;
+    padding: 10px 2px;
+    margin-top: 0%;
+}
+.box a{
+    color: white;
+    padding-right: 40px;
+    padding: 13px;
+    margin: 5px -4px;
+    text-decoration: none;
+
+}
+.box a:hover{
+    background-color: rgb(90, 3, 3);
+    color: wheat;
+    border-radius: 10px;
+}
+header h2{
+    padding-top: 15px;
+    padding-left:3em;
+}
+#firstdiv {
+    border-top: 1px;
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid darkgray;
+    position: relative;
+    width: 100%;
+    border: none;
+}
