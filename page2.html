@@ -3,6 +3,7 @@
 <head>
 	 <meta charset='utf-8'>
 	<title>Second Page</title>
+	<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='css/page2.css'>
 	<link rel="stylesheet" href="css/jquery.bxslider.min.css">
 	<script src="js/jquery-3.4.1.min.js"></script>
@@ -26,9 +27,90 @@
 </header>
 
 <body>
-<div id="firstdiv">
+	<div id="kolonamajtas">
+	      <h2 class="title">Kurset</h2>
+	      <nav>
+	        <ul>
+	          <li><a href="#">IT</a></li>
+	          <li><a href="#">Arts</a></li>
+	          <li><a href="#">Languages</a></li>
+	          <li><a href="#">Health</a></li>
+	          <li><a href="#">CriticalThinking</a></li>
+	        </ul>
+	      </nav>
+</div>
+
+
+<div id="firstdivpg2">
 	<p>Second Page</p>
 </div>
-</body>
 
+<div id="content">
+    <table>
+      <thead>
+        <td> Latest from the blog </td>
+        <td> Company Detalis </td>
+        <td> Contact Us </td>
+      </thead>
+      <tbody>
+        <td id="posts">
+          <ul>
+          <li>
+            <article>
+              <figure><img src="img/latestwork.jpg" alt="95x95" width="95" weight="95">
+                <figcaption>
+                  <h4>Indonectetus facilis</h4>
+                  <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                  Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+          <li>
+            <article>
+              <figure><img src="img/latestwork.jpg" alt="95x95" width="95" weight="95">
+                <figcaption>
+                  <h4>Indonectetus facilis</h4>
+                  <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+        </ul></td>
+        <td id="companydetails"> <p>Company Name <br>
+        Street name&number <br>
+        Town <br>
+        Post code <br><br>
+        Tel: xxxxxxx <br>
+        Fax: xxxxxxx <br>
+        email: <span id="emailtext">gr3@gmail.com</span><br><br>
+        <b> office hour </b><br>
+        monday-friday <br>
+        saturday <br>
+      </p> </td>
+        <td id="contactform">
+        <form>
+        <p id=contactformclientfirst>
+            <input type="text" name="client" placeholder="Name"/>
+        </p>
+        <p id="contactformclientsecond">
+            <input type="email" name="clientemail" placeholder="Email"/>
+        </p>
+        <p>
+            <textarea id="subject" name="subject" placeholder="Shkruaj Diqka" style="height:100px"></textarea>
+        </p>
+        <p id="buttoncontactform">
+          <input type="submit" value="Dergo"/>
+        </p>
+      </form> </td>
+      </tbody>
+    </table>
+    <hr>
+    <footer id="footer">
+      <p id="fl_left">Copyright &copy; 2013 - All Rights Reserved - Domain Name</p>
+      <p id="fl_right">Template by <a href="https://www.os-templates.com/" title="Os Template">OS Templates</a></p>
+    </footer>
+</div>
+</body>
 </html>
