@@ -1,15 +1,8 @@
 #firstdivpg2 {
-    border-top: 1px;
-    text-align: center;
     margin-top: 100px;
-    border: 1px solid darkgray;
     position: relative;
-    width: 100%;
-    border: none;
 }
-body{
-  margin-top: 0px;
-}
+
 #kolonamajtas{
   float: left;
   width: 220px;
@@ -37,4 +30,23 @@ body{
 #kolonamajtas nav a:hover{
   color: #E2494B;
   background-color: #FFFFFF;
+}
+
+#kursetIT figure img{
+  float:left;
+  margin-left: 100px;}
+
+#kursetIT figure figcaption{
+  display: block;
+  float: right;
+  width: 200px;
+  height: 160px;
+  padding: 20px;
+  color: #989898;
+  background-color: #E2E2E2;
+}
+
+#kursetIT figure h2{
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E2494B;
 }
