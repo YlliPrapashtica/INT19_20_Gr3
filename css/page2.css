@@ -1,53 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    font-family: 'Old Standard TT', serif;
-    font-weight: 400;
-}
-section em{
-  font-family: "Copperplate Gothic Light", serif;
-}
-#main{
-    position: absolute;
-    right: 30px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-#main li{
-
-    list-style: none;
-    display: inline-block;
-}
-.box{
-
-  border: 1px solid #E2494B;
-  background-color: #E2494B;
-    border-radius: 10px;
-    margin: -4px;
-    padding: 10px 2px;
-    margin-top: 0%;
-}
-.box a{
-    color: white;
-    padding-right: 40px;
-    padding: 13px;
-    margin: 5px -4px;
-    text-decoration: none;
-
-}
-.box a:hover{
-    background-color: rgb(90, 3, 3);
-    color: wheat;
-    border-radius: 10px;
-}
-header h2{
-    padding-top: 15px;
-    padding-left:3em;
-}
-#firstdiv {
+#firstdivpg2 {
     border-top: 1px;
     text-align: center;
     margin-top: 100px;
@@ -55,4 +6,35 @@ header h2{
     position: relative;
     width: 100%;
     border: none;
+}
+body{
+  margin-top: 0px;
+}
+#kolonamajtas{
+  float: left;
+  width: 220px;
+  margin-top: 100px;
+}
+#kolonamajtas h2.title{
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding-bottom:5px;
+  border-bottom:1px solid #E2494B;
+}
+
+#kolonamajtas nav{
+  display:block;
+  width:100%;
+  margin-bottom:30px;
+}
+#kolonamajtas nav a{
+  display: block;
+  padding: 5px 10px 5px 20px;
+  color: #666666;
+  text-decoration:none;
+  border-bottom: 1px dotted #E2494B;
+}
+#kolonamajtas nav a:hover{
+  color: #E2494B;
+  background-color: #FFFFFF;
 }
