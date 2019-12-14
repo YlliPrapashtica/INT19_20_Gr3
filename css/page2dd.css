@@ -1,0 +1,44 @@
+body{
+  background-image: url(../img/itwallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#titulli {
+  color: white;
+}
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{
+  display:block;
+  float:left;
+}
+.one_quarter{
+  width: 25%;
+}
+.two_quarter{
+  width:50%;
+}
+.three_quarter{
+  width: 75%;
+}
+.four_quarter{
+  width: 100%;
+}
+#fitnes article{
+  margin: 10px;
+  border: 2px solid #4CAF50;
+  background-color: lightgrey;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+#fitnes article:hover{
+  background-color: lightblue;
+  color: white;
+}
+#fitnes article figure img{
+  align: center;
+  margin:0;
+  padding:10px;
+}
+#fitnes article figure h2{
+  font-size:18px;
+}
