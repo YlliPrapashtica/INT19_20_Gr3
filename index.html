@@ -16,7 +16,14 @@
 	<nav id="main">
          <ul class="box">
            <li><a href="index.html">Home</a></li>
-           <li><a href="page2.html">Style Demo</a></li>
+           <li class="dropdown"><a href="page2.html">Kurset</a>
+            <div class="dropdown-content">
+                 <a href="#">Teknologji</a>
+                 <a href="#">Gjuhë</a>
+                 <a href="#">Kurse për fëmijë</a>
+               <a href="#">Fitnes</a>
+             </div>
+             </li>
            <li><a href="#">Full Width</a></li>
            <li><a href="#">Drop Down</a></li>
            <li><a href="AboutUs.html">Link Text</a></li>
@@ -61,7 +68,7 @@
 
     <fieldset>
       <legend> <button> OUR PLAYERS </button> </legend>
-      <section id="latest">
+      <section id="ourplayers">
         <article class="one_fifth">
           <figure><img src="img/profilepic.jpg" width="180" height="140" alt="profilepic">
             <figcaption>
@@ -115,10 +122,10 @@
     <section id="latest">
         <article>
           <figure>
-            <ul class="clear">
-              <li class="one_third"><img src="img/latestwork.jpg" width="300" height="160" alt="latestwork"></li>
-              <li class="one_third"><img src="img/latestwork.jpg" width="300" height="160" alt="latestwork"></li>
-              <li class="one_third lastbox"><img src="img/latestwork.jpg" width="300" height="160" alt="latestwork"></li>
+            <ul>
+              <li id="firstfig"><img src="img/latestwork.jpg" width="400" height="220" alt="latestwork"></li>
+              <li id="secondfig"><img src="img/latestwork.jpg" width="400" height="220" alt="latestwork"></li>
+              <li id="thirdfig"><img src="img/latestwork.jpg" width="400" height="220" alt="latestwork"></li>
             </ul>
           </figure>
         </article>

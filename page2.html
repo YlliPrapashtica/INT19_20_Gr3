@@ -3,6 +3,7 @@
 <head>
 	 <meta charset='utf-8'>
 	<title>Second Page</title>
+	<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='css/page2.css'>
 	<link rel="stylesheet" href="css/jquery.bxslider.min.css">
 	<script src="js/jquery-3.4.1.min.js"></script>
@@ -16,7 +17,14 @@
 <nav id="main">
      <ul class="box">
        <li><a href="index.html">Home</a></li>
-       <li><a href="page2.html">Style Demo</a></li>
+       <li class="dropdown"><a href="page2.html">Kurset</a>
+				 <div class="dropdown-content">
+     				<a href="page2teknologji.html">Teknologji</a>
+     				<a href="page2gjuhet.html">Gjuhë</a>
+     				<a href="page2kpf.html">Kurse për fëmijë</a>
+						<a href="page2fitnes.html">Fitnes</a>
+   			</div>
+ 				</li>
        <li><a href="#">Full Width</a></li>
        <li><a href="#">Drop Down</a></li>
        <li><a href="AboutUs.html">Link Text</a></li>
@@ -25,10 +33,95 @@
   </section>
 </header>
 
-<body>
-<div id="firstdiv">
-	<p>Second Page</p>
+	<div id="kolonamajtas">
+	      <h2 class="title">Kurset</h2>
+	      <nav>
+	        <ul>
+	          <li><a href="page2teknologji.html">Teknologji</a></li>
+	          <li><a href="page2gjuhet.html">Gjuhët</a></li>
+	          <li><a href="page2kpf.html">Kurse për fëmijë</a></li>
+	          <li><a href="page2fitnes.html">Fitnes dhe shendetësi</a></li>
+	        </ul>
+	      </nav>
+</div>
+
+<div id="firstdivpg2">
+<section id="kursetIT">
+      <figure><img src="img/latestwork.jpg" width="550" height="280" alt="">
+        <figcaption>
+          <h2><b><i>Kurset nga IT</i></b></h2>
+          <p style="margin-top: 5px;">Nullamlacus dui ipsum consequeabitur phasellentesque congue magnis vestibulum quum leo ut consequam ris felit elit id.</p>
+        </figcaption>
+      </figure>
+    </section>
+	</div>
+
+<div id="content">
+    <table>
+      <thead>
+        <td> Latest from the blog </td>
+        <td> Company Detalis </td>
+        <td> Contact Us </td>
+      </thead>
+      <tbody>
+        <td id="posts">
+          <ul>
+          <li>
+            <article>
+              <figure><img src="img/latestwork.jpg" alt="95x95" width="95" weight="95">
+                <figcaption>
+                  <h4>Indonectetus facilis</h4>
+                  <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                  Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+          <li>
+            <article>
+              <figure><img src="img/latestwork.jpg" alt="95x95" width="95" weight="95">
+                <figcaption>
+                  <h4>Indonectetus facilis</h4>
+                  <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
+                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+        </ul></td>
+        <td id="companydetails"> <p>Company Name <br>
+        Street name&number <br>
+        Town <br>
+        Post code <br><br>
+        Tel: xxxxxxx <br>
+        Fax: xxxxxxx <br>
+        email: <span id="emailtext">gr3@gmail.com</span><br><br>
+        <b> office hour </b><br>
+        monday-friday <br>
+        saturday <br>
+      </p> </td>
+        <td id="contactform">
+        <form>
+        <p id=contactformclientfirst>
+            <input type="text" name="client" placeholder="Name"/>
+        </p>
+        <p id="contactformclientsecond">
+            <input type="email" name="clientemail" placeholder="Email"/>
+        </p>
+        <p>
+            <textarea id="subject" name="subject" placeholder="Shkruaj Diqka" style="height:100px"></textarea>
+        </p>
+        <p id="buttoncontactform">
+          <input type="submit" value="Dergo"/>
+        </p>
+      </form> </td>
+      </tbody>
+    </table>
+    <hr>
+    <footer id="footer">
+      <p id="fl_left">Copyright &copy; 2013 - All Rights Reserved - Domain Name</p>
+      <p id="fl_right">Template by <a href="https://www.os-templates.com/" title="Os Template">OS Templates</a></p>
+    </footer>
 </div>
 </body>
-
 </html>
