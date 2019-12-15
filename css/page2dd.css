@@ -1,10 +1,110 @@
-body{
-  background-image: url(../img/itwallpaper.jpg);
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+section em{
+  font-family: "Copperplate Gothic Light", serif;
+}
+#main{
+    position: absolute;
+    right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#main li{
+
+    list-style: none;
+    display: inline-block;
+}
+.box{
+
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
+    border-radius: 10px;
+    margin: -4px;
+    padding: 10px 2px;
+    margin-top: 0%;
+}
+.box a{
+    color: white;
+    padding-right: 40px;
+    padding: 13px;
+    margin: 5px -4px;
+    text-decoration: none;
+
+}
+.box a:hover{
+    background-color: rgb(90, 3, 3);
+    color: wheat;
+    border-radius: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #E2494B;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: rgb(90, 3, 3);
+  border-radius: 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+header h2{
+    padding-top: 15px;
+    padding-left:3em;
+}
+#firstdivpg2{
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  background-image: url(../img/wallpaper.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-#titulli {
-  color: white;
+legend {
+    display: table;
+     min-width: 0px;
+     max-width: 70%;
+     position: relative;
+     margin: auto;
+     padding: 5px 20px;
+     color: #eee8aa;
+     font-size: 20px;
+}
+fieldset{
+  border: none;
+  border-top: 2px solid darkgray;
+}
+button {
+  font-size: 30px;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: lightgrey;
+  font-family: 'Old Standard TT', serif;
+}
+button:hover{
+color: white;
+background-color: lightblue;
 }
 .one_quarter, .two_quarter, .three_quarter, .four_quarter{
   display:block;
@@ -22,7 +122,7 @@ body{
 .four_quarter{
   width: 100%;
 }
-#fitnes article{
+#contentpg2 article{
   margin: 10px;
   border: 2px solid #4CAF50;
   background-color: lightgrey;
@@ -30,15 +130,140 @@ body{
   height: 300px;
   border-radius: 30px;
 }
-#fitnes article:hover{
+#contentpg2 article:hover{
   background-color: lightblue;
   color: white;
 }
-#fitnes article figure img{
+#contentpg2 article figure img{
   align: center;
   margin:0;
   padding:10px;
 }
-#fitnes article figure h2{
+#contentpg2 article figure h2{
   font-size:18px;
+}
+#content{
+  border: 0;
+  background: #E2E2E2;
+  float:left;
+  width:100%;
+}
+
+#content table{
+  padding: 30px 50px;
+  font-size: 20px;
+  text-align: left;
+  font-family:corbel;
+}
+
+#content #posts ul li{
+  display: block;
+  padding: 20px 0px 0px 0px;
+  width: 610px;
+  margin: 0px;
+}
+
+#content #posts ul li article figure{
+  margin: 0px 0px 25px 0px;
+}
+
+#content #posts ul li article figure img{
+  float:left;
+  margin:0;
+  padding:4px;
+  border:1px
+  solid #8F8F8F;
+}
+
+#content #posts ul li article figure figcaption{
+  color: #A0A0A0;
+  margin:5px 25px 5px 25px;
+  display: block;
+  float: right;
+  width: 430px;
+  font-size: 20px;
+  text-align: left;
+  font-family: calibri;
+}
+
+#content #posts ul li article figure figcaption h4{
+  color: #E2494B;
+  margin: 0px 0px 5px 0px;
+}
+#content #companydetails{
+  color: #A0A0A0;
+  width: 300px;
+  margin:5px 25px 5px 25px;
+  font-size: 20px;
+  text-align: left;
+  font-family: calibri;
+}
+#emailtext {
+  color: #E2494B;
+}
+#content #contactform #contactformclientfirst input{
+  margin: 15px 0px 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  padding: 15px;
+}
+#content #contactform #contactformclientsecond input{
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  padding: 15px;
+}
+#content #contactform #subject{
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  padding: 15px;
+}
+#content #contactform #buttoncontactform input{
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  font-size: 20px;
+}
+#content #contactform #buttoncontactform input:hover{
+  background-color: rgb(90, 3, 3);
+  color: wheat;
+  border-radius: 10px;
+}
+#footer{
+  padding: 5px 0px;
+  background-color: #E2E2E2;
+}
+#footer p{
+  margin:12px 2px;
+  padding:0;
+  font-size: 12px;
+  color: #A0A0A0;
+  font-size: 20px;
+}
+#footer a{
+  color: #A0A0A0;
+  text-decoration: none;
+}
+#footer #fl_left{
+  float: left;
+}
+#footer #fl_right{
+  float: right;
+}
+hr {
+  background-color: white;
+  padding: 0.1px;
+  border: none;
+  width: 100%
 }
