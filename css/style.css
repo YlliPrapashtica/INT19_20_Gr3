@@ -276,9 +276,18 @@ figure {
 #footer #fl_right{
   float: right;
 }
-hr {
+/* hr {
   background-color: white;
   padding: 0.1px;
   border: none;
   width: 100%
+} */
+#content{
+  display: flex;
+  justify-content: space-between;
+}
+.top article{
+  
+  display: flex;
+  justify-content: space-between;
 }
