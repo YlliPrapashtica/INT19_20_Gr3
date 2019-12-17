@@ -1,4 +1,4 @@
-  
+
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&display=swap');
 
 *{
@@ -8,26 +8,9 @@
 body{
     font-family: 'Old Standard TT', serif;
     font-weight: 400;
+    width:100%;
+    
 }
-
-.foto-footer {
-  width: 40%;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto ;
-}
-
-.grid-item {
-  border: 0px;
-}
-
-#grid-item{
-  border: 0px;
-  margin-top: 20%;
-}
-
 section em{
   font-family: "Copperplate Gothic Light", serif;
 }
@@ -36,6 +19,7 @@ section em{
     right: 30px;
     padding: 10px;
     border-radius: 10px;
+    display: inline-block;
 }
 
 #main li{
@@ -65,10 +49,50 @@ section em{
     color: wheat;
     border-radius: 10px;
 }
-header h2{
-    padding-top: 15px;
-    padding-left:3em;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #E2494B;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: rgb(90, 3, 3);
+  border-radius: 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.foto-footer {
+  width: 40%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+
+.grid-item {
+  border: 0px;
+}
+/*per ne ofrojme me dal ne mes*/
+#grid-item{
+  border: 0px;
+  margin-top: 20%;
+}
+
+
 
 div {
     border-top: 1px;
