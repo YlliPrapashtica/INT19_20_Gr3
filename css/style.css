@@ -8,6 +8,7 @@
 body{
     font-family: 'Old Standard TT', serif;
     font-weight: 400;
+    width:100%;
     
 }
 section em{
@@ -111,6 +112,7 @@ legend {
 fieldset{
   border: none;
   border-top: 1px solid darkgray;
+  width: 100%;
 }
 button {
   color: white;
@@ -122,24 +124,22 @@ button {
 }
 
 .one_third, .two_third, .three_third{
-  display:block;
+  display:inline-flex;
   float:left;
   margin:25px 5px 25px 5px;
   font-size: 20px;
 }
 
 .one_third{
-  width:400px;
-  margin-left: 30px;
+  width:32%;
 }
 
 .two_third{
-  width:800px;
+  width:32%;
 }
 
 .three_third{
-  width: 1200px;
-  margin-right:0;
+  width: 32%;
 }
 .one_third p{
   margin-top: 10px;
@@ -171,21 +171,20 @@ figure {
   font-size: 20px;
 }
 .one_fifth{
-  width: 230px;
-  margin-left: 35px;
+  width: 19%;
 }
 .two_fifth{
-  width: 600px;
+  width: 19%;
 }
 
 .three_fifth{
-  width: 750px;
+  width: 19%;
 }
 .four_fifth{
-  width: 900px;
+  width: 19%;
 }
 .five_fifth{
-  width: 1400px;
+  width: 19%;
 }
 
 #latest article figure ul li{
