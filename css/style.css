@@ -126,6 +126,7 @@ button {
 .one_third, .two_third, .three_third{
   display:inline-flex;
   float:left;
+  justify-self: auto;
   margin:25px 5px 25px 5px;
   font-size: 20px;
 }
@@ -188,13 +189,15 @@ figure {
 }
 
 #latest article figure ul li{
-  display:block;
-  float:left;
-  margin: 25px 10px 25px 5px;
-  width: 420px;
+  list-style: none;
+  
+  
 }
-#latest #firstfig{
-  margin-left: 30px;
+ #latest article figure {
+ 
+  width:99%;
+
+
 }
 
 .content{
