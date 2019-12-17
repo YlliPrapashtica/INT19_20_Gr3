@@ -5,12 +5,6 @@
     padding: 0;
     margin: 0;
 }
-body{
-    font-family: 'Old Standard TT', serif;
-    font-weight: 400;
-    width:100%;
-    
-}
 section em{
   font-family: "Copperplate Gothic Light", serif;
 }
@@ -19,7 +13,6 @@ section em{
     right: 30px;
     padding: 10px;
     border-radius: 10px;
-    display: inline-block;
 }
 
 #main li{
@@ -77,27 +70,15 @@ section em{
 header h2{
     padding-top: 15px;
     padding-left:3em;
-    display: inline;
 }
-
-
-header p{
-  display:block;
-}
-
-#firstdiv {
-    border-top: 1px solid darkgray;
-    text-align: center;
-    margin-top: 100px;
-    position: relative;
-    width: 100%;
-}
-#firstdiv p {
-  margin: 20px;
-  font-size: 20px;
-}
-header p{
-    padding-left: 30px;
+#firstdivpg2{
+  text-align: center;
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  background-image: url(../img/wallpaper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 legend {
     display: table;
@@ -111,121 +92,82 @@ legend {
 }
 fieldset{
   border: none;
-  border-top: 1px solid darkgray;
-  width: 100%;
+  border-top: 2px solid darkgray;
 }
 button {
-  color: white;
-  padding: 4px 20px;
+  font-size: 30px;
+  color: black;
+  padding: 10px 30px;
   border-radius: 10px;
-  border: 1px solid #E2494B;
-  background-color: #E2494B;
+  background-color: lightgrey;
   font-family: 'Old Standard TT', serif;
 }
-
-.one_third, .two_third, .three_third{
-  display:inline-flex;
-  float:left;
-  justify-self: auto;
-  margin:25px 5px 25px 5px;
-  font-size: 20px;
+button:hover{
+color: white;
+background-color: lightblue;
 }
-
-.one_third{
-  width:32%;
-}
-
-.two_third{
-  width:32%;
-}
-
-.three_third{
-  width: 32%;
-}
-.one_third p{
-  margin-top: 10px;
-}
-figure {
-  display: inline;
-  float: left;
-}
-.more a{
-  color: red;
-}
-
-#ourplayer article figure {
-  margin:0;
-  padding:0;
-  list-style:none;
-}
-
-#ourplayer article figure img{
-  padding:4px;
-  border:1px
-  solid #D6D6D6;
-}
-
-.one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{
   display:block;
   float:left;
-  margin:25px 0px;
-  font-size: 20px;
 }
-.one_fifth{
-  width: 19%;
+.one_quarter{
+  width: 25%;
 }
-.two_fifth{
-  width: 19%;
+.two_quarter{
+  width:50%;
 }
-
-.three_fifth{
-  width: 19%;
+.three_quarter{
+  width: 75%;
 }
-.four_fifth{
-  width: 19%;
+.four_quarter{
+  width: 100%;
 }
-.five_fifth{
-  width: 19%;
+#contentpg2 article{
+  margin: 10px;
+  border: 2px solid #4CAF50;
+  background-color: lightgrey;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
 }
-
-#latest article figure ul li{
-  list-style: none;
-  
-  
+#contentpg2 article:hover{
+  background-color: lightblue;
+  color: white;
 }
- #latest article figure {
- 
-  width:99%;
-
-
+#contentpg2 article figure img{
+  align: center;
+  margin:0;
+  padding:10px;
 }
-
-.content{
+#contentpg2 article figure h2{
+  font-size:18px;
+}
+#content{
   border: 0;
   background: #E2E2E2;
   float:left;
   width:100%;
 }
 
-.content table{
+#content table{
   padding: 30px 50px;
   font-size: 20px;
   text-align: left;
   font-family:corbel;
 }
 
-.content #posts ul li{
+#content #posts ul li{
   display: block;
   padding: 20px 0px 0px 0px;
   width: 610px;
   margin: 0px;
 }
 
-.content #posts ul li article figure{
+#content #posts ul li article figure{
   margin: 0px 0px 25px 0px;
 }
 
-.content #posts ul li article figure img{
+#content #posts ul li article figure img{
   float:left;
   margin:0;
   padding:4px;
@@ -233,7 +175,7 @@ figure {
   solid #8F8F8F;
 }
 
-.content #posts ul li article figure figcaption{
+#content #posts ul li article figure figcaption{
   color: #A0A0A0;
   margin:5px 25px 5px 25px;
   display: block;
@@ -244,11 +186,11 @@ figure {
   font-family: calibri;
 }
 
-.content #posts ul li article figure figcaption h4{
+#content #posts ul li article figure figcaption h4{
   color: #E2494B;
   margin: 0px 0px 5px 0px;
 }
-.content #companydetails{
+#content #companydetails{
   color: #A0A0A0;
   width: 300px;
   margin:5px 25px 5px 25px;
@@ -259,7 +201,7 @@ figure {
 #emailtext {
   color: #E2494B;
 }
-.content #contactform #contactformclientfirst input{
+#content #contactform #contactformclientfirst input{
   margin: 15px 0px 5px 0px;
   font-family: 'Old Standard TT', serif;
   border-radius: 4px;
@@ -267,7 +209,7 @@ figure {
   width: 300px;
   padding: 15px;
 }
-.content #contactform #contactformclientsecond input{
+#content #contactform #contactformclientsecond input{
   margin: 5px 0px;
   font-family: 'Old Standard TT', serif;
   border-radius: 4px;
@@ -275,7 +217,7 @@ figure {
   width: 300px;
   padding: 15px;
 }
-.content #contactform #subject{
+#content #contactform #subject{
   margin: 5px 0px;
   font-family: 'Old Standard TT', serif;
   border-radius: 4px;
@@ -283,7 +225,7 @@ figure {
   width: 300px;
   padding: 15px;
 }
-.content #contactform #buttoncontactform input{
+#content #contactform #buttoncontactform input{
   color: white;
   padding: 5px 10px;
   border-radius: 10px;
@@ -293,42 +235,35 @@ figure {
   font-family: 'Old Standard TT', serif;
   font-size: 20px;
 }
-.content #contactform #buttoncontactform input:hover{
+#content #contactform #buttoncontactform input:hover{
   background-color: rgb(90, 3, 3);
   color: wheat;
   border-radius: 10px;
 }
-.footer{
+#footer{
   padding: 5px 0px;
   background-color: #E2E2E2;
 }
-.footer p{
+#footer p{
   margin:12px 2px;
   padding:0;
   font-size: 12px;
   color: #A0A0A0;
   font-size: 20px;
 }
-.footer a{
+#footer a{
   color: #A0A0A0;
   text-decoration: none;
 }
-.footer #fl_left{
+#footer #fl_left{
   float: left;
 }
-.footer #fl_right{
+#footer #fl_right{
   float: right;
 }
-tbody{
-  display: flex;
-  justify-content: space-between;
-}
-.content{
-  display: flex;
-  justify-content: space-between;
-}
-.top article{
-  
-  display: flex;
-  justify-content: space-between;
+hr {
+  background-color: white;
+  padding: 0.1px;
+  border: none;
+  width: 100%
 }

@@ -1,0 +1,52 @@
+#firstdivpg2 {
+    margin-top: 100px;
+    position: relative;
+}
+
+#kolonamajtas{
+  float: left;
+  width: 220px;
+  margin-top: 100px;
+}
+#kolonamajtas h2.title{
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding-bottom:5px;
+  border-bottom:1px solid #E2494B;
+}
+
+#kolonamajtas nav{
+  display:block;
+  width:100%;
+  margin-bottom:30px;
+}
+#kolonamajtas nav a{
+  display: block;
+  padding: 5px 10px 5px 20px;
+  color: #666666;
+  text-decoration:none;
+  border-bottom: 1px dotted #E2494B;
+}
+#kolonamajtas nav a:hover{
+  color: #E2494B;
+  background-color: #FFFFFF;
+}
+
+#kursetIT figure img{
+  float:left;
+  margin-left: 100px;}
+
+#kursetIT figure figcaption{
+  display: block;
+  float: right;
+  width: 200px;
+  height: 160px;
+  padding: 20px;
+  color: #989898;
+  background-color: #E2E2E2;
+}
+
+#kursetIT figure h2{
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E2494B;
+}

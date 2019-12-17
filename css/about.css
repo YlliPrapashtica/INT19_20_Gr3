@@ -1,4 +1,4 @@
-
+  
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&display=swap');
 
 *{
@@ -16,11 +16,16 @@ body{
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto ;
 }
 
 .grid-item {
   border: 0px;
+}
+
+#grid-item{
+  border: 0px;
+  margin-top: 20%;
 }
 
 section em{
@@ -93,4 +98,9 @@ button {
   border: 1px solid #E2494B;
   background-color: #E2494B;
   font-family: 'Old Standard TT', serif;
+}
+
+.w3-content {
+  border: 0;
+  margin-top: -35px;
 }
