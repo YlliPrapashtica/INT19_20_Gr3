@@ -7,6 +7,7 @@
   float: left;
   width: 220px;
   margin-top: 100px;
+  height: 100%;
 }
 #kolonamajtas h2.title{
   margin-bottom: 5px;
@@ -31,22 +32,89 @@
   color: #E2494B;
   background-color: #FFFFFF;
 }
-
-#kursetIT figure img{
+#kursetITmain figure img{
   float:left;
-  margin-left: 100px;}
-
-#kursetIT figure figcaption{
-  display: block;
-  float: right;
-  width: 200px;
-  height: 160px;
-  padding: 20px;
-  color: #989898;
-  background-color: #E2E2E2;
+  margin: 25px 0px 25px 175px;
 }
 
-#kursetIT figure h2{
+#kursetITmain figure figcaption{
+  margin-top: 25px;
+  display: block;
+  float: right;
+  width: 300px;
+  height: 280px;
+  padding: 20px;
+  color: white;
+  background-color: #E2494B;
+}
+
+#kursetITmain figure h2{
   padding-bottom: 8px;
   border-bottom: 1px solid #E2494B;
+}
+legend {
+    display: table;
+     min-width: 0px;
+     max-width: 70%;
+     position: relative;
+     margin: auto;
+     padding: 5px 20px;
+     color: #eee8aa;
+     font-size: 20px;
+}
+fieldset{
+  border: none;
+  border-top: 2px solid #E2494B;
+  background-color: #E2E2E2;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+button {
+  font-size: 20px;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: #E2494B;
+  font-family: 'Old Standard TT', serif;
+}
+button:hover{
+color: black;
+background-color: lightblue;
+}
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{
+  display:block;
+  float:left;
+}
+.one_quarter{
+  width: 25%;
+}
+.two_quarter{
+  width:50%;
+}
+.three_quarter{
+  width: 75%;
+}
+.four_quarter{
+  width: 100%;
+}
+#kursetITcontent article{
+  margin: 10px;
+  border: 2px solid #E2494B;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: white;
+}
+#kursetITcontent article:hover{
+  background-color: lightblue;
+  color: white;
+}
+#kursetITcontent article figure img{
+  align: center;
+  margin:0;
+  padding:10px;
+}
+#kursetITcontent article figure h2{
+  font-size:18px;
 }
