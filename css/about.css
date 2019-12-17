@@ -72,11 +72,12 @@ header h2{
     padding-left:3em;
 }
 
+
 div {
     border-top: 1px;
     text-align: center;
     margin-top: 100px;
-    border: 1px solid darkgray;
+    border: 0.1px solid darkgray;
     position: relative;
     width: 100%;
 }
@@ -101,6 +102,7 @@ button {
   background-color: #E2494B;
   font-family: 'Old Standard TT', serif;
 }
+
 /*per me dal ne ofrojm teksi ne mes*/
 .w3-content {
   border: 0;
