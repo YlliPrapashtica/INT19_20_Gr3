@@ -198,32 +198,32 @@ figure {
   margin-left: 30px;
 }
 
-#content{
+.content{
   border: 0;
   background: #E2E2E2;
   float:left;
   width:100%;
 }
 
-#content table{
+.content table{
   padding: 30px 50px;
   font-size: 20px;
   text-align: left;
   font-family:corbel;
 }
 
-#content #posts ul li{
+.content #posts ul li{
   display: block;
   padding: 20px 0px 0px 0px;
   width: 610px;
   margin: 0px;
 }
 
-#content #posts ul li article figure{
+.content #posts ul li article figure{
   margin: 0px 0px 25px 0px;
 }
 
-#content #posts ul li article figure img{
+.content #posts ul li article figure img{
   float:left;
   margin:0;
   padding:4px;
@@ -231,7 +231,7 @@ figure {
   solid #8F8F8F;
 }
 
-#content #posts ul li article figure figcaption{
+.content #posts ul li article figure figcaption{
   color: #A0A0A0;
   margin:5px 25px 5px 25px;
   display: block;
@@ -242,11 +242,11 @@ figure {
   font-family: calibri;
 }
 
-#content #posts ul li article figure figcaption h4{
+.content #posts ul li article figure figcaption h4{
   color: #E2494B;
   margin: 0px 0px 5px 0px;
 }
-#content #companydetails{
+.content #companydetails{
   color: #A0A0A0;
   width: 300px;
   margin:5px 25px 5px 25px;
@@ -257,7 +257,7 @@ figure {
 #emailtext {
   color: #E2494B;
 }
-#content #contactform #contactformclientfirst input{
+.content #contactform #contactformclientfirst input{
   margin: 15px 0px 5px 0px;
   font-family: 'Old Standard TT', serif;
   border-radius: 4px;
@@ -265,7 +265,7 @@ figure {
   width: 300px;
   padding: 15px;
 }
-#content #contactform #contactformclientsecond input{
+.content #contactform #contactformclientsecond input{
   margin: 5px 0px;
   font-family: 'Old Standard TT', serif;
   border-radius: 4px;
@@ -273,7 +273,7 @@ figure {
   width: 300px;
   padding: 15px;
 }
-#content #contactform #subject{
+.content #contactform #subject{
   margin: 5px 0px;
   font-family: 'Old Standard TT', serif;
   border-radius: 4px;
@@ -281,7 +281,7 @@ figure {
   width: 300px;
   padding: 15px;
 }
-#content #contactform #buttoncontactform input{
+.content #contactform #buttoncontactform input{
   color: white;
   padding: 5px 10px;
   border-radius: 10px;
@@ -291,39 +291,37 @@ figure {
   font-family: 'Old Standard TT', serif;
   font-size: 20px;
 }
-#content #contactform #buttoncontactform input:hover{
+.content #contactform #buttoncontactform input:hover{
   background-color: rgb(90, 3, 3);
   color: wheat;
   border-radius: 10px;
 }
-#footer{
+.footer{
   padding: 5px 0px;
   background-color: #E2E2E2;
 }
-#footer p{
+.footer p{
   margin:12px 2px;
   padding:0;
   font-size: 12px;
   color: #A0A0A0;
   font-size: 20px;
 }
-#footer a{
+.footer a{
   color: #A0A0A0;
   text-decoration: none;
 }
-#footer #fl_left{
+.footer #fl_left{
   float: left;
 }
-#footer #fl_right{
+.footer #fl_right{
   float: right;
 }
-/* hr {
-  background-color: white;
-  padding: 0.1px;
-  border: none;
-  width: 100%
-} */
-#content{
+tbody{
+  display: flex;
+  justify-content: space-between;
+}
+.content{
   display: flex;
   justify-content: space-between;
 }
