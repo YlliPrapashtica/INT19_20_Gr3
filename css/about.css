@@ -67,6 +67,16 @@ section em{
     color: wheat;
     border-radius: 10px;
 }
+.s1{ 
+font-family: "Fantasy", Times;
+color:red;
+font-size: 160%;
+}
+body{
+  background-color: #FBDB92;
+}
+
+
 header h2{
     padding-top: 15px;
     padding-left:3em;
