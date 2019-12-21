@@ -9,22 +9,16 @@ body{
     font-family: 'Old Standard TT', serif;
     font-weight: 400;
     width:100%;
+    
+}
 
-}
-#firstsection{
-  border: solid 2px black;
-}
-#thirdsection{
-  border: solid 2px black;
-  border-left: none;
-}
 .foto-footer {
   width: 40%;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto ;
 }
 
 .grid-item {
@@ -34,7 +28,6 @@ body{
 #grid-item{
   border: 0px;
   margin-top: 20%;
-  border: solid 2px black;
 }
 
 section em{
@@ -74,14 +67,22 @@ section em{
     color: wheat;
     border-radius: 10px;
 }
+.s1{ 
+font-family: "Fantasy", Times;
+color:red;
+font-size: 160%;
+}
+body{
+  background-color: #FBDB92;
+}
+
+
 header h2{
     padding-top: 15px;
     padding-left:3em;
 }
 
-.dropdown-content{
-  text-align: left;
-}
+
 div {
     border-top: 1px;
     text-align: center;
