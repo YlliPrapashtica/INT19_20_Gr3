@@ -32,12 +32,12 @@
   color: #E2494B;
   background-color: #FFFFFF;
 }
-#kursetITmain figure img{
+#kursetmain figure img{
   float:left;
   margin: 25px 0px 25px 175px;
 }
 
-#kursetITmain figure figcaption{
+#kursetmain figure figcaption{
   margin-top: 25px;
   display: block;
   float: right;
@@ -48,7 +48,7 @@
   background-color: #E2494B;
 }
 
-#kursetITmain figure h2{
+#kursetmain figure h2{
   padding-bottom: 8px;
   border-bottom: 1px solid #E2494B;
 }
@@ -98,7 +98,7 @@ background-color: lightblue;
 .four_quarter{
   width: 100%;
 }
-#kursetITcontent article{
+#kursetcontent article{
   margin: 10px;
   border: 2px solid #E2494B;
   width: 300px;
@@ -106,15 +106,15 @@ background-color: lightblue;
   border-radius: 30px;
   background-color: white;
 }
-#kursetITcontent article:hover{
+#kursetcontent article:hover{
   background-color: lightblue;
   color: white;
 }
-#kursetITcontent article figure img{
+#kursetcontent article figure img{
   align: center;
   margin:0;
   padding:10px;
 }
-#kursetITcontent article figure h2{
+#kursetcontent article figure h2{
   font-size:18px;
 }
