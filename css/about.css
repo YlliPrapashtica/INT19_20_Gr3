@@ -29,12 +29,14 @@ body{
 
 .grid-item {
   border: 0px;
-}
 
+}
+/*per border te teksteve nese don mi bo */
 #grid-item{
+
   border: 0px;
   margin-top: 20%;
-  border: solid 2px black;
+  border: solid 0px black;
 }
 
 section em{
@@ -92,6 +94,7 @@ header h2{
 .dropdown-content{
   text-align: left;
 }
+/*border per vijen nfillim para rreth nesh*/
 div {
     border-top: 1px;
     text-align: center;
