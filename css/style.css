@@ -9,7 +9,7 @@ body{
     font-family: 'Old Standard TT', serif;
     font-weight: 400;
     width:100%;
-    
+
 }
 section em{
   font-family: "Copperplate Gothic Light", serif;
@@ -79,8 +79,6 @@ header h2{
     padding-left:3em;
     display: inline;
 }
-
-
 header p{
   display:block;
 }
@@ -124,80 +122,72 @@ button {
 }
 
 .one_third, .two_third, .three_third{
-  display:inline-flex;
+  display: block;
   float:left;
-  justify-self: auto;
   margin:25px 5px 25px 5px;
   font-size: 20px;
 }
 
 .one_third{
-  width:32%;
+  width:400px;
+  margin-left: 30px;
 }
-
 .two_third{
-  width:32%;
+  width:800px;
 }
-
 .three_third{
-  width: 32%;
+  width: 1200px;
+  margin-right:0;
 }
 .one_third p{
-  margin-top: 10px;
+  margin: 10px 0px;
 }
 figure {
   display: inline;
   float: left;
+  margin-right: 15px;
 }
 .more a{
-  color: red;
+  color: #E2494B;
 }
-
-#ourplayer article figure {
-  margin:0;
-  padding:0;
-  list-style:none;
-}
-
-#ourplayer article figure img{
+#stafi article figure img{
   padding:4px;
   border:1px
   solid #D6D6D6;
+  align-content: center;
 }
-
+#stafi article figure figcaption {
+  width: 100%;
+}
 .one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{
   display:block;
   float:left;
-  margin:25px 0px;
-  font-size: 20px;
+  margin: 10px 0px;
+  font-size: 18px;
 }
 .one_fifth{
-  width: 19%;
+  width: 15%;
+  margin-left: 60px;
 }
 .two_fifth{
-  width: 19%;
+  width: 30%;
 }
 
 .three_fifth{
-  width: 19%;
+  width: 45%;
 }
 .four_fifth{
-  width: 19%;
+  width: 60%;
 }
 .five_fifth{
-  width: 19%;
+  width: 75%;
 }
 
 #latest article figure ul li{
   list-style: none;
-  
-  
 }
  #latest article figure {
- 
   width:99%;
-
-
 }
 
 .content{
@@ -318,22 +308,4 @@ figure {
 }
 .footer #fl_right{
   float: right;
-}
-tbody{
-  display: flex;
-  justify-content: space-between;
-}
-.content{
-  display: flex;
-  justify-content: space-between;
-}
-.top article{
-  
-  display: flex;
-  justify-content: space-between;
-}
-.a{
-  font-family: fantasy;
-  
-
 }
