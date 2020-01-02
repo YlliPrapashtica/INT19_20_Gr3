@@ -19,8 +19,15 @@ body{
   border-left: none;
 }
 .foto-footer {
-  width: 40%;
+  width: 50%;
+  padding-top: -50%;
+
 }
+.foto-foter1{
+  width: 40%;
+
+}
+
 
 .grid-container {
   display: grid;
@@ -30,13 +37,6 @@ body{
 .grid-item {
   border: 0px;
 
-}
-/*per border te teksteve nese don mi bo */
-#grid-item{
-
-  border: 0px;
-  margin-top: 20%;
-  border: solid 0px black;
 }
 
 section em{
@@ -83,6 +83,7 @@ font-size: 160%;
 border-style: double;
 border-color: black;
 
+
 }
 .s2{
   border-style: double;
@@ -91,7 +92,7 @@ border-color: black;
 .s3{
   border-style: double;
   border-color: black;
-  height: 80%;
+  padding-bottom: 40px;
 }
 
 
@@ -113,24 +114,11 @@ div {
     border-top: 1px;
     text-align: center;
     margin-top: 100px;
-    border: 0.1px solid darkgray;
+    border: 0px solid darkgray;
     position: relative;
     width: 100%;
 }
-#more {display: none;}
-header p{
-    padding-left: 30px;
-}
-legend {
-  display: table;
-     min-width: 0px;
-     max-width: 70%;
-     position: relative;
-     margin: auto;
-     padding: 5px 20px;
-     color: #eee8aa;
-     font-size: 20px;
-}
+
 button {
   color: white;
   padding: 4px 20px;
@@ -149,21 +137,17 @@ mark{
   background-color: #E5E3DE;
   color: black;
 }
-.pika {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #E2494B;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active, .pika:hover {
-  background-color: #717171;
-}
 
-.g {border-style: groove;}
+.g {
+  border-style: groove;
+ margin: 0px 25px 20px 75px;
+
+}
+.g1{
+  text-align: center;
+  border-style: groove;
+ margin: 0px 25px 0px 25px;
+}
 
 
 .content{
@@ -286,3 +270,24 @@ mark{
   float: right;
 }
 
+/*heder*/
+#kursetmain figure img{
+  float:left;
+  margin: 25px 0px 25px 175px;
+}
+
+#kursetmain figure figcaption{
+  margin-top: 25px;
+  display: block;
+  float: right;
+  width: 300px;
+  height: 280px;
+  padding: 20px;
+  color: white;
+  background-color: #E2494B;
+}
+
+#kursetmain figure h2{
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E2494B;
+}
