@@ -144,8 +144,11 @@ figure {
   border:1px
   solid #D6D6D6;
   align-content: center;
-
+ width: 100%;
    }
+  
+
+  
 #stafi article figure figcaption {
     width: 100%;
 }

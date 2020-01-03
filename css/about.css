@@ -274,7 +274,9 @@ mark{
 .footer #fl_right{
   float: right;
 }
-
+.fig{
+  padding-top: 30%;
+}
 /*heder*/
 #kursetmain figure img{
   float:left;
