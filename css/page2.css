@@ -2,6 +2,7 @@
   margin-top: 80px;
   margin-left: 120px;
 }
+
 #firstdivpg2 {
     margin-top: 100px;
     position: relative;
@@ -69,7 +70,6 @@ legend {
 fieldset{
   border: none;
   border-top: 2px solid #E2494B;
-  background-color: #E2E2E2;
   text-align: center;
   position: relative;
   width: 100%;
@@ -116,9 +116,16 @@ background-color: lightblue;
 }
 #kursetcontent article figure img{
   align: center;
-  margin:0;
-  padding:10px;
+  padding: 30px 0px 30px 10px;
 }
 #kursetcontent article figure h2{
   font-size:18px;
+}
+#kursetcontent img{
+  align: center;
+  padding: 30px 0px 30px 10px;
+}
+#kursetcontent article figure figcaption p{
+  text-align: center;
+  margin-left: 10px;
 }
