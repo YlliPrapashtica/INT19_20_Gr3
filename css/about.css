@@ -78,11 +78,12 @@ section em{
 }
 .s1{ 
 font-family: "Fantasy", Times;
-color:red;
+color:#F31B2F;
 font-size: 160%;
 border-style: double;
 border-color: black;
 margin: 20px;
+margin-top: 25px;
 
 }
 .s2{
@@ -93,8 +94,9 @@ margin: 20px;
 .s3{
   border-style: double;
   border-color: black;
-  padding-bottom: 40px;
+  padding-bottom: 17.5px;
   margin: 20px;
+
 }
 
 
@@ -133,10 +135,10 @@ button {
 /*per me dal ne ofrojm teksi ne mes*/
 .w3-content {
   border: 0;
-  margin-top: -35px;
+  margin-top: -50px;
 }
 mark{
-  background-color: #E5E3DE;
+  background-color: #C4BDA6;
   color: black;
 }
 
