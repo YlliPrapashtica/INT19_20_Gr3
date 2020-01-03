@@ -144,9 +144,10 @@ figure {
   border:1px
   solid #D6D6D6;
   align-content: center;
-}
+
+   }
 #stafi article figure figcaption {
-  width: 100%;
+    width: 100%;
 }
 .one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{
   display:block;
