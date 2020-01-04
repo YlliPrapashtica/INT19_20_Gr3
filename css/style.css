@@ -133,7 +133,6 @@ button {
 }
 figure {
   display: inline;
-  float: left;
   margin-right: 15px;
 }
 .more a{
