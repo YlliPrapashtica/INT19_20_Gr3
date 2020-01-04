@@ -113,12 +113,13 @@ button {
 .one_third, .two_third, .three_third{
   display: block;
   float:left;
-  margin:25px 5px 25px 5px;
+  margin:25px 0 25px 5px;
   font-size: 20px;
+  width:32%;
 }
-
+/* 
 .one_third{
-  width:400px;
+  width:32%;
   margin-left: 30px;
 }
 .two_third{
@@ -127,13 +128,12 @@ button {
 .three_third{
   width: 1200px;
   margin-right:0;
-}
+} */
 .one_third p{
   margin: 10px 0px;
 }
 figure {
   display: inline;
-  float: left;
   margin-right: 15px;
 }
 .more a{
