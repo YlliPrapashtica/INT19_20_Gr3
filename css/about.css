@@ -37,6 +37,10 @@ body{
 .grid-item {
   border: 0px;
 
+
+}
+.grid-item1{
+  margin-top: 0;
 }
 
 section em{
