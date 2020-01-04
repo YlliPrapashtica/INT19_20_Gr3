@@ -1,24 +1,27 @@
 #ylli figure{
-    width:45%;
+    width:65%;
     display: block;
-    margin-bottom: 10%;
     margin-right: 20%;
     border: 1px solid black;
 }
 #rigoni figure{
     margin-top: 10%;
     margin-bottom: 10%;
-    width:45%;
-    display:block;
-    align-content: end;
+    width:65%;
     padding: 20px;
     border: 1px solid black;
+    float: right;
+}
+#rigoni{
+    
+    display:block;
+
 }
 
 #rinesa figure{
     margin-top: 10%;
     margin-bottom: 10%;
-    width:45%;
+    width:65%;
     display: block;
     border: 1px solid black;
     padding: 20px;
@@ -27,17 +30,17 @@
 #betim figure{
     margin-top: 10%;
     margin-bottom: 10%;
-    width:45%;
+    width:65%;
     border: 1px solid black;
     display: block;
-    align-content: end;
+    float: right;
     padding: 20px;
 }
 
 #jetlir figure{
     margin-top: 10%;
     margin-bottom: 10%;
-    width:45%;
+    width:65%;
     display: block;
     padding: 20px;
     border: 1px solid black;
