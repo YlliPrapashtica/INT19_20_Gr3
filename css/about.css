@@ -67,7 +67,7 @@ section em{
   margin-top: 10px;
   display: none;
   position: absolute;
-  background-color: #E2494B;
+  
   min-width: 160px;
   z-index: 1;
 }
@@ -114,24 +114,30 @@ border-style: double;
 border-color: black;
 margin: 20px;
 margin-top: 25px;
+border-radius: 10px;
+
 
 }
 .s2{
-  border-style: double;
+  
   border-color: black;
   margin: 20px;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+   word-wrap: break-word;
 }
 .s3{
-  border-style: double;
+  padding: 20px;
   border-color: black;
-  padding-bottom: 17.5px;
+  padding-bottom: 20px;
   margin: 20px;
-
+  border: 1px solid;
+  
+  box-shadow: 5px 10px #888888;
 }
 
-body{
-  background-color: #CBC8BE;
-}
+
 
 
 header h2{
@@ -143,7 +149,7 @@ header h2{
 div {
     border-top: 1px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     border: 0 solid darkgray;
     position: relative;
     width: 100%;
