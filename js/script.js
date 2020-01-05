@@ -194,7 +194,7 @@ alert(velma);
 
 const pi = 3.141592;
 const gravity = 9.8154;
-const inchToCm =2.54;
+const inchToCm =0.0254;
 const poundsToKg =0.4536;
 
 function showConstants(){
