@@ -39,6 +39,24 @@ function getDate() {
   return formatDate();
 }
 
+function chooseYourAge() {
+  var is18over = false;
+  var myAge = document.getElementById('age').value;
+
+  try {
+      if(myAge < 18) throw "Sorry, you shall not pass !";
+
+      is18over = true;
+  } catch(error){
+      alert(error);
+  }
+
+  if(is18over){
+      alert("Welcome !");
+  }
+}
+document.querySelector('.my-btn2').addEventListener('click', chooseYourAge);
+
 var myBtn = document.querySelector('.my-btn');
 
 myBtn.addEventListener('click', firstFunction);
