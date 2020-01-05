@@ -89,6 +89,7 @@ background-color: lightblue;
 .one_quarter, .two_quarter, .three_quarter, .four_quarter{
   display:block;
   float:left;
+  margin: 0;
 }
 .one_quarter{
   width: 25%;

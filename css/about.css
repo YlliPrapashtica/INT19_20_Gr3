@@ -182,7 +182,9 @@ mark{
     border-style: groove;
  margin: 0px 75px 20px 100px;
 }
-
+#main{
+  margin-top: 50px;
+}
 .content{
   border: 0;
   background: #E2E2E2;

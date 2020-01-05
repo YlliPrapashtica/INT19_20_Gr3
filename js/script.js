@@ -1,3 +1,25 @@
+$(document).ready(function(){
+  var maxLength = $('textarea').attr('maxlength');
+
+//    console.log(maxLength);
+
+   $('span').html(maxLength);   // .html targetojm elementin tek bodys
+
+   $('textarea').keydown(function(){
+       var textLength = $(this).val().length;
+
+   //    console.log(textLength); 
+
+       var remainChars = maxLength - textLength;
+
+       $('span').html(remainChars);
+
+       if (remainChars <= 30) {
+           $('span').css('color','red');
+       }
+   })
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
