@@ -1,19 +1,28 @@
-#div1 {
-  width: 90%;
-  border-style: solid;
-  border-width: 5px;
+body{
+	background-image: url("img/projeket_bg.jpg");
+	background-repeat: repeat-y;
 }
+#div1 {
+	margin: 10px 5% 10px 5%;
+	border-style: solid;
+	border-width: 5px;
+}
+#div2 {
+	padding: 10px 10px 10px 10px;
+	background-color: lightgray;
+	margin: 10px 5% 10px 5%;
+	}
 .a1{
 	text-align: center;
 }
 
-#gradi
-		{
-			height: 300px;
-			background:-webkit-linear-gradient(left,red,orange,yellow);
-		}
-#gradi1
-{
+#gradi{
+	margin: 10px 5% 10px 5%;
+	height: 300px;
+	background:-webkit-linear-gradient(left,red,orange,yellow);
+}
+#gradi1{
+	margin: 10px 5% 10px 5%;
 	height: 300px;
 	background:radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
 }
@@ -22,5 +31,4 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
 }
