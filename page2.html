@@ -5,54 +5,59 @@
 	<title>Second Page</title>
 	<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='css/page2.css'>
+	<link rel="stylesheet" href="css/jquery.bxslider.min.css">
 	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<style>
+	#sale {
+	  margin-top: 80px;
+	  margin-left: 120px;
+	}
+	</style>
 </head>
 <body>
 <header>
 <section >
-	<img src="img/logomain.png" alt="logomain">
+	<img src="img/logomain.png" alt="logomain" width="170px" height="80px">
 <nav id="main">
-	<ul class="box">
-	  <li><a href="index.html">Home</a></li>
-	  <li class="dropdown"><a href="page2.html">Kurset</a>
-	   <div class="dropdown-content">
-			<a href=page2.html href="#kursetIT">Teknologji</a>
-			<a href=page2.html href=#kursetGjuhet>Gjuh&#235;</a>
-			<a href=page2.html href="#kursetperfemije">Kurse p&#235;r f&#235;mij&#235;</a>
-			<a href=page2.html href="#kursetfitnes">Fitnes</a>
-		</div>
-		</li>
-	  <li><a href="Projektet.html">Projektet Tona</a></li>
-	  <li><a href="Trajneret.html">Trajneret Tone</a></li>
-	  <li><a href="AboutUs.html">Rreth Nesh</a></li>
-	</ul>
- </nav>
+     <ul class="box">
+       <li><a href="index.html">Home</a></li>
+       <li class="dropdown"><a href="page2.html">Kurset</a>
+				 <div class="dropdown-content">
+     				<a href="#kursetIT">Teknologji</a>
+     				<a href="#kursetGjuhet">Gjuhë</a>
+     				<a href="#kursetperfemije">Kurse për fëmijë</a>
+						<a href="#kursetfitnes">Fitnes</a>
+   			</div>
+ 				</li>
+				<li><a href="Projektet.html">Projektet Tona</a></li>
+				<li><a href="Trajneret.html">Trajneret Tone</a></li>
+				<li><a href="AboutUs.html">Rreth Nesh</a></li>
+     </ul>
+  </nav>
   </section>
 </header>
-
-	<div id="kolonamajtas">
+	<div id="kolonamajtas" style="float: left; margin-top:70px;">
 	      <h2 class="title">Kurset</h2>
 	      <nav>
 	        <ul>
 	          <li><a href=#kursetIT>Teknologji</a></li>
-	          <li><a href=#kursetGjuhet>Gjuh&#235;t</a></li>
-	          <li><a href=#kursetperfemije>Kurse p&#235;r f&#235;mij&#235;</a></li>
-	          <li><a href=#kursetfitnes>Fitnes dhe shendet&#235;si</a></li>
+	          <li><a href=#kursetGjuhet>Gjuhët</a></li>
+	          <li><a href=#kursetperfemije>Kurse për fëmijë</a></li>
+	          <li><a href=#kursetfitnes>Fitnes dhe shendetësi</a></li>
 	        </ul>
 	      </nav>
 </div>
-<figure id="sale"><img src="img/newyearwallpaper.jpg" width="900" height="200"></figure>
+<figure id="sale"><img src="img/newyearwallpaper.jpg" width="900" height="200" style="margin: 60px 0px 10px 10px;"></figure>
 <fieldset id="kursetIT">
-	<legend> <button> Kurset Teknologji </button> </legend>
+	<legend> <button> Kurset Teknologji </button></legend>
 	<section id="kursetmain">
 	      <figure><img src="img/1.jpg" width="650" height="320" alt="">
 	        <figcaption>
 	          <h2><b><i>Kurse per teknologji</i></b></h2>
-	          <p style="margin-top: 5px;">.</p>Nga dita e par&#235;, nuk pendohemi kurr&#235; p&#235;r angazhimin ton&#235; n&#235; lidhje.
-
-ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t&#235; fitoj&#235; vlera reale, me mb&#235;shtetje t&#235; plot&#235; t&#235;
-			ciklit jet&#235;sor p&#235;r aplikacione, p&#235;rfshir&#235; vler&#235;sime, implementime,
-			p&#235;rmir&#235;sime t&#235; optimizmit, mir&#235;mbajtje dhe pritje
+<abbr title "ENG Language Teaching">ETL</abbr> ofron një gamë të teknologjive dhe i mundëson klientit të fitojë vlera reale, me mbështetje të plotë të
+			ciklit jetësor për aplikacione, përfshirë vlerësime, implementime,
+			përmirësime të optimizmit, mirëmbajtje dhe pritje
 	        </figcaption>
 	      </figure>
 	    </section>
@@ -61,7 +66,7 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
           <figure><img src="img/logo/java.png" width="130" height="80" alt="javalogo">
             <figcaption>
               <h2>Java</h2>
-              <p>Ky kurs mundesohet nga Ardian Berisha </p>
+              <p>Ky kurs mundesohet nga Ardian Berisha</p>
             </figcaption>
           </figure>
         </article>
@@ -69,7 +74,7 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
           <figure><img src="img/logo/html5.png" width="80" height="80" alt="html5logo">
             <figcaption>
               <h2>HTML5</h2>
-              <p>Ky kurs do te mbahet nga Artemisa Ndoj</p>
+              <p>Ky kurs do te mbahet nga <a href="mailto:thaqibetimr@gmail.com">Artemisa Ndoj</a></p>
             </figcaption>
           </figure>
         </article>
@@ -125,13 +130,14 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
 		</fieldset>
 		<!-- Fieldseti i dyte per kurset nga gjuhet -->
 		<fieldset id="kursetGjuhet">
-			<legend> <button> Kurse p&#235;r gjuh&#235; t&#235; ndryshme </button> </legend>
+			<legend> <button> Kurse për gjuhë të ndryshme </button> </legend>
 			<section id="kursetmain">
 			      <figure><img src="img/gjuhetwallpaper.jpg" width="650" height="320" alt="">
 			        <figcaption>
-			          <h2><b><i>Kurse p&#235;r gjuh&#235; t&#235; ndryshme</i></b></h2>
-			          <p style="margin-top: 5px;">Merrni vendimin e duhur duke p&#235;rzgjedhur nj&#235; rrug&#235; t&#235; dobishme t&#235; t&#235; m&#235;suarit,
-									nj&#235; edukim prestigjioz dhe nj&#235; karrier&#235; t&#235; suksesshme p&#235;r f&#235;mij&#235;n tuaj!</p>
+			          <h2><b><i>Kurse për gjuhë të ndryshme</i></b></h2>
+			          <p style="margin-top: 5px;">Merrni vendimin e duhur duke përzgjedhur një rrugë të dobishme të të mësuarit,
+									një edukim prestigjioz dhe një karrierë të suksesshme për fëmijën tuaj!
+								Per me shume info vizitoni <a href="https://www.facebook.com/ltecourse/" target="_blank"> LTE Facebook <a></p>
 			        </figcaption>
 			      </figure>
 			    </section>
@@ -139,7 +145,7 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
 		        <article class="one_quarter">
 		          <figure><img src="img/logo/ukflag.png" width="130" height="80" alt="ukflag">
 		            <figcaption>
-		              <h2>Gjuh&#235; Angleze</h2>
+		              <h2>Gjuhë Angleze</h2>
 		              <p>Ky kurs mundesohet nga Ardian Berisha</p>
 		            </figcaption>
 		          </figure>
@@ -147,7 +153,7 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
 		        <article class="one_quarter">
 		          <figure><img src="img/logo/germanyflag.jpg" width="130" height="80" alt="germanyflag">
 		            <figcaption>
-		              <h2>Gjuh&#235; Gjermane</h2>
+		              <h2>Gjuhë Gjermane</h2>
 		              <p>Ky kurs do te mbahet nga Artemisa Ndoj</p>
 		            </figcaption>
 		          </figure>
@@ -155,7 +161,7 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
 		        <article class="one_quarter">
 		          <figure><img src="img/logo/italianflag.jpg" width="130" height="80" alt="italianflag">
 		            <figcaption>
-		              <h2>Gjuh&#235; Italiane</h2>
+		              <h2>Gjuhë Italiane</h2>
 		              <p>Ky kurs do te mbahet nga A. Gashi</p>
 		            </figcaption>
 		          </figure>
@@ -163,7 +169,7 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
 		        <article class="one_quarter">
 		          <figure><img src="img/logo/frenchflag.jpg" width="130" height="80" alt="frenchflag">
 		            <figcaption>
-		              <h2>Gjuh&#235; Fr&#235;nge</h2>
+		              <h2>Gjuhë Frënge</h2>
 		              <p>Ky kurs do te ligjerohet nga Jetlir Elshani</p>
 		            </figcaption>
 		          </figure>
@@ -176,10 +182,10 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
 								<figure><img src="img/femijetwallpaper.jpg" width="650" height="320" alt="">
 									<figcaption>
 										<h2><b><i>Kurset per femije nga fusha te ndryshme</i></b></h2>
-										<p style="margin-top: 5px;">Kurse p&#235;r f&#235;mije p&#235;rgaditje dhe ushtrime, udhezim p&#235;r detyrat e sht&#235;pis&#235;,
-											ku nx&#235;n&#235;sit, n&#235;n mbik&#235;qyrje t&#235; m&#235;simdh&#235;n&#235;sve, mund t&#235; q&#235;ndrojn&#235; dhe t'i b&#235;jn&#235; detyrat e sht&#235;pis&#235;
-											me format kreative t&#235; vler&#235;simit dhe t&#235; m&#235;simdh&#235;nies, n&#235;p&#235;rmjet s&#235; cilave f&#235;mij&#235;t i pranojn&#235; m&#235; leht&#235; detyrat e tyre shkollore,
-											 rrisin interesimin p&#235;r t&#235; nx&#235;n&#235; dhe mbahen t&#235; motivuar q&#235; t&#235; pajisen me njohuri t&#235; reja.</p>
+										<p style="margin-top: 5px;">Kurse për fëmije përgaditje dhe ushtrime, udhezim për detyrat e shtëpisë,
+											ku nxënësit, nën mbikëqyrje të mësimdhënësve, mund të qëndrojnë dhe t'i bëjnë detyrat e shtëpisë
+											me format kreative të vlerësimit dhe të mësimdhënies, nëpërmjet së cilave fëmijët i pranojnë më lehtë detyrat e tyre shkollore,
+											 rrisin interesimin për të nxënë dhe mbahen të motivuar që të pajisen me njohuri të reja.</p>
 									</figcaption>
 								</figure>
 							</section>
@@ -224,8 +230,8 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
 										<figure><img src="img/fitneswallpaper.jpg" width="650" height="320" alt="">
 											<figcaption>
 												<h2><b><i>Fitnes dhe shendetesi</i></b></h2>
-												<p style="margin-top: 5px;">Deshironi t&#235; keni nj&#235; pamje krejt&#235;sisht t&#235; re, nuk dini me k&#235; t&#235; konsultoheni. Tek ne mund te gjeni kurse te cilesise
-												se larte ne ate qe qfare kerkoni ju. Filloni tani, mos e leni per me von&#235;.</p>
+												<p style="margin-top: 5px;">Deshironi të keni një pamje krejtësisht të re, nuk dini me kë të konsultoheni. Tek ne mund te gjeni kurse te cilesise
+												se larte ne ate qe qfare kerkoni ju. Filloni tani, mos e leni per me vonë.</p>
 											</figcaption>
 										</figure>
 									</section>
@@ -265,72 +271,72 @@ ETL ofron nj&#235; gam&#235; t&#235; teknologjive dhe i mund&#235;son klientit t
 								</fieldset>
 
 
-	<div class="content">
-	    <table>
-	      <thead>
-	        <td> Latest from the blog </td>
-	        <td> Company Detalis </td>
-	        <td> Contact Us </td>
-	      </thead>
-	      <tbody>
-	        <td id="posts">
-	          <ul>
-	          <li>
-	            <article>
-	              <figure><img src="img/latestwork.jpg" alt="95x95" width="95" weight="95">
-	                <figcaption>
-	                  <h4>Indonectetus facilis</h4>
-	                  <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
-	                  Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
-	                </figcaption>
-	              </figure>
-	            </article>
-	          </li>
-	          <li>
-	            <article>
-	              <figure><img src="img/latestwork.jpg" alt="95x95" width="95" weight="95">
-	                <figcaption>
-	                  <h4>Indonectetus facilis</h4>
-	                  <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.
-	                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
-	                </figcaption>
-	              </figure>
-	            </article>
-	          </li>
-	        </ul></td>
-	        <td id="companydetails"> <p>Company Name <br>
-	        Street name&number <br>
-	        Town <br>
-	        Post code <br><br>
-	        Tel: xxxxxxx <br>
-	        Fax: xxxxxxx <br>
-	        email: <span id="emailtext">gr3@gmail.com</span><br><br>
-	        <b> office hour </b><br>
-	        monday-friday <br>
-	        saturday <br>
-	      </p> </td>
-	        <td id="contactform">
-	        <form>
-	        <p id=contactformclientfirst>
-	            <input type="text" name="client" placeholder="Name"/>
-	        </p>
-	        <p id="contactformclientsecond">
-	            <input type="email" name="clientemail" placeholder="Email"/>
-	        </p>
-	        <p>
-	            <textarea id="subject" name="subject" placeholder="Shkruaj Diqka" style="height:100px"></textarea>
-	        </p>
-	        <p id="buttoncontactform">
-	          <input type="submit" value="Dergo"/>
-	        </p>
-	      </form> </td>
-	      </tbody>
-	    </table>
-	    <hr>
-	  </div>
-	    <footer class="content footer">
-	      <p id="fl_left">Copyright &copy; 2013 - All Rights Reserved - Domain Name</p>
-	      <p id="fl_right">Template by <a href="https://www.os-templates.com/" title="Os Template">OS Templates</a></p>
-	    </footer>
+<div class="content">
+								    <table>
+								      <thead>
+								        <td> Aktualitet </td>
+								        <td> Detajet </td>
+								        <td> Na kontaktoni </td>
+								      </thead>
+								      <tbody>
+								        <td id="posts">
+								          <ul>
+								          <li>
+								            <article>
+								              <figure><img src="img/2.jpg" alt="95x95" width="95px" height="95px" style="margin-top: 40px">
+								                <figcaption>
+								                  <h4>Zhvillimi i softuerit</h4>
+								                  <p>Përvoja jonë themelore është planifikimi dhe zhvillimi i softverëve. Pasioni ynë në fushën e Teknologjisë së Informacionit është softueri dhe gjithçka rreth tyre. Kontaktoni me ne për të marrë një ofertë në lidhje me idenë tuaj për programin tuaj.</p>
+								                </figcaption>
+								              </figure>
+								            </article>
+								          </li>
+								          <li>
+								            <article>
+								              <figure><img src="img/1.jpg" alt="95x95" width="95px" height="95px" style="margin-top: 70px">
+								                <figcaption>
+								                  <h4>Dizajni </h4>
+								                  <p>Webfaqja është padyshim deklaratë e vërtetë e biznesit tuaj.Nëse nuk keni tashmë një uebfaqe për biznesin tuaj, na kontaktoni për të folur në lidhje me këtë.</p>
+								                </figcaption>
+								              </figure>
+								            </article>
+								          </li>
+								        </ul></td>
+								        <td id="companydetails"> <p> <mark>ELT Courses </mark><br>
+								          <address>
+								        Lekë Mëtranga nr. 89. <br>
+								        Prishtina <br>
+								        10000 <br><br></address>
+								        Tel: 383 (38) 123991<br>
+								        Fax: 833000 <br>
+								        email: <span id="emailtext">ELT@gmail.com</span><br><br>
+								        <b> Hapur </b><br>
+								        Hëne-Premte <br>
+								        08:00 - 16:00 <br>
+
+								      </p> </td>
+								        <td id="contactform">
+								        <form>
+								        <p id=contactformclientfirst>
+								            <input type="text" name="client" placeholder="Emri"/>
+								        </p>
+								        <p id="contactformclientsecond">
+								            <input type="email" name="clientemail" placeholder="Email"/>
+								        </p>
+								        <p>
+								            <textarea id="subject" name="subject" placeholder="Shkruaj Diqka" style="height:100px"></textarea>
+								        </p>
+								        <p id="buttoncontactform">
+								          <input type="submit" value="Dergo"/>
+								        </p>
+								      </form> </td>
+								      </tbody>
+								    </table>
+								    <hr>
+								  </div>
+								    <footer class="content footer">
+								      <p id="fl_left">Copyright &copy; 2008 - All Rights Reserved - ELT Courses</p>
+								      <p id="fl_right">Template by <a href="https://www.os-templates.com/" title="Os Template">OS Templates</a></p>
+								    </footer>
 </body>
 </html>
