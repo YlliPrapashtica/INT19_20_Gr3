@@ -1,0 +1,382 @@
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    width:100%;
+
+}
+section em{
+  font-family: "Copperplate Gothic Light", serif;
+}
+#main{
+    position: absolute;
+    right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#main li{
+
+    list-style: none;
+    display: inline-block;
+}
+.box{
+
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
+    border-radius: 10px;
+    margin: -4px;
+    padding: 10px 2px;
+    margin-top: 0%;
+}
+.box a{
+    color: white;
+    padding-right: 40px;
+    padding: 13px;
+    margin: 5px -4px;
+    text-decoration: none;
+
+}
+.box a:hover{
+    background-color: rgb(90, 3, 3);
+    color: wheat;
+    border-radius: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #E2494B;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: rgb(90, 3, 3);
+  border-radius: 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+header h2{
+    padding-top: 15px;
+    padding-left:3em;
+    display: inline;
+}
+header p{
+  display:block;
+}
+
+#firstdiv {
+    border-top: 1px solid darkgray;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+}
+#firstdiv p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+
+fieldset{
+  border: none;
+  border-top: 1px solid darkgray;
+  width: 100%;
+}
+button {
+  color: white;
+  padding: 4px 20px;
+  border-radius: 10px;
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
+  font-family: 'Old Standard TT', serif;
+}
+
+.one_third, .two_third, .three_third{
+  display: block;
+  float:left;
+  margin:25px 0 25px 5px;
+  font-size: 20px;
+  width:32%;
+}
+/* 
+.one_third{
+  width:32%;
+  margin-left: 30px;
+}
+.two_third{
+  width:800px;
+}
+.three_third{
+  width: 1200px;
+  margin-right:0;
+} */
+.one_third p{
+  margin: 10px 0px;
+}
+figure {
+  display: inline;
+  margin-right: 15px;
+}
+.more a{
+  color: #E2494B;
+}
+#stafi article figure img{
+  padding:4px;
+  border:1px
+  solid #D6D6D6;
+  align-content: center;
+ width: 100%;
+   }
+  
+
+  
+#stafi article figure figcaption {
+    width: 100%;
+}
+.one_fifth, .two_fifth, .three_fifth, .four_fifth, .five_fifth{
+  display:block;
+  float:left;
+  margin: 10px 0px;
+  font-size: 18px;
+}
+.one_fifth{
+  width: 15%;
+  margin-left: 60px;
+}
+.two_fifth{
+  width: 30%;
+}
+
+.three_fifth{
+  width: 45%;
+}
+.four_fifth{
+  width: 60%;
+}
+.five_fifth{
+  width: 75%;
+}
+
+#latest article figure ul li{
+  list-style: none;
+}
+ #latest article figure {
+  width:99%;
+}
+
+.content{
+  border: 0;
+  background: #E2E2E2;
+  float:left;
+  width:100%;
+}
+
+.content table{
+  padding: 30px 50px;
+  font-size: 20px;
+  text-align: left;
+  font-family:corbel;
+}
+
+.content #posts ul li{
+  display: block;
+  padding: 20px 0px 0px 0px;
+  width: 610px;
+  margin: 0px;
+}
+
+.content #posts ul li article figure{
+  margin: 0px 0px 25px 0px;
+}
+
+.content #posts ul li article figure img{
+  float:left;
+  margin:0;
+  padding:4px;
+  border:1px
+  solid #8F8F8F;
+}
+
+.content #posts ul li article figure figcaption{
+  color: #A0A0A0;
+  margin:5px 25px 5px 25px;
+  display: block;
+  float: right;
+  width: 430px;
+  font-size: 20px;
+  text-align: left;
+  font-family: calibri;
+}
+
+.content #posts ul li article figure figcaption h4{
+  color: #E2494B;
+  margin: 0px 0px 5px 0px;
+}
+.content #companydetails{
+  color: #A0A0A0;
+  width: 300px;
+  margin:5px 25px 5px 25px;
+  font-size: 20px;
+  text-align: left;
+  font-family: calibri;
+}
+#emailtext {
+  color: #E2494B;
+}
+.content #contactform #contactformclientfirst input{
+  margin: 15px 0px 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  padding: 15px;
+}
+.content #contactform #contactformclientsecond input{
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  padding: 15px;
+}
+.content #contactform #subject{
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  padding: 15px;
+}
+.content #contactform #buttoncontactform input{
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #E2494B;
+  background-color: #E2494B;
+  margin: 5px 0px;
+  font-family: 'Old Standard TT', serif;
+  font-size: 20px;
+}
+.content #contactform #buttoncontactform input:hover{
+  background-color: rgb(90, 3, 3);
+  color: wheat;
+  border-radius: 10px;
+}
+.footer{
+  padding: 5px 0px;
+  background-color: #E2E2E2;
+}
+.footer p{
+  margin:12px 2px;
+  padding:0;
+  font-size: 12px;
+  color: #A0A0A0;
+  font-size: 20px;
+}
+.footer a{
+  color: #A0A0A0;
+  text-decoration: none;
+}
+.footer #fl_left{
+  float: left;
+}
+.footer #fl_right{
+  float: right;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #E2494B;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+.pika {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #E2494B;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .pika:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
