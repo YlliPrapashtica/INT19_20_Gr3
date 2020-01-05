@@ -1,17 +1,6 @@
-#sale {
-  margin-top: 80px;
-  margin-left: 120px;
-}
-
-#firstdivpg2 {
-    margin-top: 100px;
-    position: relative;
-}
 
 #kolonamajtas{
-  float: left;
   width: 220px;
-  margin-top: 100px;
   height: 100%;
 }
 #kolonamajtas h2.title{
@@ -20,7 +9,6 @@
   padding-bottom:5px;
   border-bottom:1px solid #E2494B;
 }
-
 #kolonamajtas nav{
   display:block;
   width:100%;
@@ -39,26 +27,23 @@
 }
 #kursetmain figure img{
   float:left;
-  margin: 25px 0px 25px 175px;
+  margin: 25px 0px 0px 175px;
 }
-
 #kursetmain figure figcaption{
   margin-top: 25px;
-  display: block;
-  float: right;
+  float: left;
   width: 300px;
   height: 280px;
   padding: 20px;
-  color: white;
   background-color: #E2494B;
+  color: white;
 }
-
 #kursetmain figure h2{
   padding-bottom: 8px;
   border-bottom: 1px solid #E2494B;
 }
 legend {
-    display: table;
+     display: table;
      min-width: 0px;
      max-width: 70%;
      position: relative;
@@ -87,9 +72,8 @@ color: black;
 background-color: lightblue;
 }
 .one_quarter, .two_quarter, .three_quarter, .four_quarter{
-  display:block;
-  float:left;
-  margin: 0;
+  display: block;
+  float: left;
 }
 .one_quarter{
   width: 25%;
