@@ -137,7 +137,13 @@ border-radius: 10px;
   box-shadow: 5px 10px #888888;
 }
 
+<<<<<<< HEAD
 
+=======
+body{
+background-color: #CBC8BE;
+}
+>>>>>>> 97a24306b97309cfbf598989754b025cabb4ff6b
 
 
 header h2{
@@ -188,7 +194,9 @@ mark{
     border-style: groove;
  margin: 0px 75px 20px 100px;
 }
-
+#main{
+  margin-top: 50px;
+}
 .content{
   border: 0;
   background: #E2E2E2;
