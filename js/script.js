@@ -22,6 +22,28 @@ $(document).ready(function(){
       }
    })})
 
+   function firstFunction() {
+    alert("Button is clicked !");
+}
+
+function secondFunction() {
+    alert("Button is hovered");
+}
+
+function getDate() {
+  var date = new Date();
+  function formatDate(){
+      return date.toDateString();
+  }
+
+  return formatDate();
+}
+
+var myBtn = document.querySelector('.my-btn');
+
+myBtn.addEventListener('click', firstFunction);
+myBtn.addEventListener('mouseover', secondFunction);
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
