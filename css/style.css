@@ -143,6 +143,15 @@ figure {
   display: inline;
   margin-right: 15px;
 }
+#morejs1 {
+  display: none;
+}
+#morejs2 {
+  display: none;
+}
+#morejs3 {
+  display: none;
+}
 .more a{
   color: #E2494B;
 }
