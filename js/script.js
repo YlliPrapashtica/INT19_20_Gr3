@@ -1,14 +1,11 @@
 $(document).ready(function(){
   var maxLength = $('textarea').attr('maxlength');
 
-//    console.log(maxLength);
 
    $('span').html(maxLength);   // .html targetojm elementin tek bodys
 
    $('textarea').keydown(function(){
        var textLength = $(this).val().length;
-
-   //    console.log(textLength); 
 
        var remainChars = maxLength - textLength;
 
@@ -20,7 +17,7 @@ $(document).ready(function(){
        else if (remainChars >= 30) {
         $('span').css('color','black');
       }
-   })})
+   })
 
    function firstFunction() {
     alert("Button is clicked !");
@@ -85,8 +82,8 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+ // slides[slideIndex-1].style.display = "block";
+  //dots[slideIndex-1].className += " active";
 }
 
 function myFunction1() {
@@ -136,3 +133,44 @@ function myFunction3() {
     moreText.style.display = "inline";
   }
 }
+
+function positiveNumbers(n) {
+  return n > 0;
+}
+
+function MathExpressions(){
+var numbers2 = [-20, 15, 25, -30, 44];
+
+var new_numbers2 = numbers2.filter(positiveNumbers);
+var new_numbers3 = Number.MAX_VALUE;
+var new_numbers4 = Number.MIN_VALUE;
+
+alert(new_numbers2);
+alert(new_numbers3);
+alert(new_numbers4);
+}
+
+var myBtn3 = document.querySelector('.my-btn3');
+myBtn3.addEventListener('click', MathExpressions);
+
+function FindIn(){
+  
+  var str = "The rain in SPAIN stays mainly in the plain";
+  var res = str.match(/ain/gi);
+
+  alert(str+"\n"+res);
+}
+
+function replaceWith(){
+  var str = "Visit UBT!";
+  var res = str.replace("UBT", "FIEK");
+
+  alert(str+"\n"+res);
+}
+
+var myBtn4 = document.querySelector('.my-btn4');
+myBtn4.addEventListener('click', FindIn);
+
+var myBtn5 = document.querySelector('.my-btn5');
+myBtn5.addEventListener('click', replaceWith);
+})
