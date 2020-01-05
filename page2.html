@@ -34,6 +34,16 @@ function drop(ev) {
   var data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementById(data));
 }
+	
+	$(document).ready(function(){
+  $("#likebuton").click(function(){
+    $("ol").append(" <li>Like</li>");
+  });
+
+  $("#dislikebuton").click(function(){
+    $("ol").append("<li>Dislkie</li>");
+  });
+});
 </script>
 </head>
 
@@ -291,13 +301,22 @@ function drop(ev) {
 											</figure>
 										</article>
 								</fieldset>
-								<div style="margin-top: 20px;">
+	<div style="margin-top: 20px;">
 								<p>Qofse keni perfunduar te gjitha kurset bejeni logon drop ketu</p>
-
 								<div id="dragdrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 								<br>
-								<img id="drag1" src="img/logomain.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
-<div>
+							<img id="drag1" src="img/logomain.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+<article style="float: right; margin: 0px 0px 15px 0px">
+<p>Qofse ju kane pelqyer kurset tona shtypni like qofse jo shtypni dislike</p>
+<ol>
+  <li>Like</li>
+  <li>Dislike</li>
+</ol>
+<button id="likebuton">Like</button>
+<button id="dislikebuton">Dislike</button>
+</article>
+</div>
 <div class="content">
 								    <table>
 								      <thead>
