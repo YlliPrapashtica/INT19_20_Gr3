@@ -17,8 +17,10 @@ $(document).ready(function(){
        if (remainChars <= 30) {
            $('span').css('color','red');
        }
-   })
-
+       else if (remainChars >= 30) {
+        $('span').css('color','black');
+      }
+   })})
 
 var slideIndex = 1;
 showSlides(slideIndex);

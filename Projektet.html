@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Projektet</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/projektet.css'>
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <header>
+	<section >
+    <img src="img/logomain.png" alt="logomain">
+	<nav id="main">
+         <ul class="box">
+           <li><a href="index.html">Home</a></li>
+           <li class="dropdown"><a href="page2.html">Kurset</a>
+            <div class="dropdown-content">
+                 <a href=page2.html href="#kursetIT">Teknologji</a>
+                 <a href=page2.html href=#kursetGjuhet>Gjuhë</a>
+                 <a href=page2.html href="#kursetperfemije">Kurse për fëmijë</a>
+                 <a href=page2.html href="#kursetfitnes">Fitnes</a>
+             </div>
+             </li>
+           <li><a href="Projektet.html">Projektet Tona</a></li>
+           <li><a href="Trajneret.html">Trajneret Tone</a></li>
+           <li><a href="AboutUs.html">Rreth Nesh</a></li>
+         </ul>
+      </nav>
+      </section>
+    </header>
+
+    <h3>Post a message</h3>
+            <form>
+                <textarea maxlength="100" cols="40" rows="5" placeholder="Write something..."></textarea>
+                <p><span></span> Charcters remaining</p>
+            </form>
+
+    <!--Tabela-->
+<div class="content">
+    <table cellspacing="10px" cellpadding="2px">
+      <thead>
+        <td> Aktualitet </td>
+        <td> Detajet </td>
+
+        <td> Na kontaktoni </td>
+      </thead>
+      <tbody>
+        <td id="posts" style="background-color:lightgrey;">
+          <ul>
+          <li>
+            <article>
+              <figure ><img src="img/2.jpg" alt="95x95" width="100" height="50">
+                <figcaption>
+                  <h4>Zhvillimi i softuerit</h4>
+                  <p>Përvoja jonë themelore është planifikimi dhe zhvillimi i softverëve. Pasioni ynë në fushën e Teknologjisë së Informacionit është softueri dhe gjithçka rreth tyre. Kontaktoni me ne për të marrë një ofertë në lidhje me idenë tuaj për programin tuaj.</p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+          <li>
+            <article>
+              <figure><img src="img/1.jpg" alt="95x95" width="100" height="50">
+                <figcaption>
+                  <h4>Dizajni </h4>
+                  <p>Webfaqja është padyshim deklaratë e vërtetë e biznesit tuaj.Nëse nuk keni tashmë një uebfaqe për biznesin tuaj, na kontaktoni për të folur në lidhje me këtë.</p>
+                </figcaption>
+              </figure>
+            </article>
+          </li>
+
+
+        </ul></td>
+        <td id="companydetails" style="background-color:lightgrey;"> <p> <mark>ELT Courses </mark><br>
+          <address>
+        Lekë Mëtranga nr. 89. <br>
+        Prishtina <br>
+        10000 <br><br></address>
+        Tel: 383 (38) 123991<br>
+        Fax: 833000 <br>
+        email: <span id="emailtext">ELT@gmail.com</span><br><br>
+        <b> Hapur </b><br>
+        Hëne-Premte <br>
+        08:00 - 16:00 <br>
+
+      </p> </td>
+        <td id="contactform" style="background-color:lightgrey;"/>
+        <form>
+        <p id=contactformclientfirst>
+            <input type="text" name="client" placeholder="Emri"/>
+        </p>
+        <p id="contactformclientsecond">
+            <input type="email" name="clientemail" placeholder="Email"/>
+        </p>
+        <p>
+            <textarea id="subject" name="subject" placeholder="Shkruaj Diqka" style="height:100px"></textarea>
+        </p>
+        <p id="buttoncontactform">
+          <input type="submit" value="Dergo"/>
+        </p>
+      </form> </td>
+      </tbody>
+    </table>
+    <hr>
+  </div>
+    <footer class="content footer">
+      <p id="fl_left">Copyright &copy; 2008 - All Rights Reserved - ELT Courses</p>
+      <p id="fl_right">Template by <a href="https://www.os-templates.com/" title="Os Template">OS Templates</a></p>
+    </footer>
+
+
+    <script src='js/script.js'></script>
+</body>
+</html>
