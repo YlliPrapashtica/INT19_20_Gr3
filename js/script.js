@@ -173,4 +173,40 @@ myBtn4.addEventListener('click', FindIn);
 
 var myBtn5 = document.querySelector('.my-btn5');
 myBtn5.addEventListener('click', replaceWith);
+
+
+function employee(name, jobtitle, born) {
+  this.name = name;
+  this.jobtitle = jobtitle;
+  this.born = born;
+}
+employee.prototype.salary = 2000;
+employee.prototype.houseColor = 'red';
+
+var fred = new employee("Fred Flintstone", "Caveman", 1970);
+var velma = new employee("Velma Flintstone", "Cavewoman", 1977);
+
+function showEmployee(){
+  
+alert(fred);
+alert(velma);
+}
+
+const pi = 3.141592;
+const gravity = 9.8154;
+const inchToCm =2.54;
+const poundsToKg =0.4536;
+
+function showConstants(){
+  
+  alert(pi);
+  alert(gravity);
+  alert(inchToCm);
+  alert(poundsToKg);
+  
+  
+}var myBtn6 = document.querySelector('.my-btn6');
+myBtn6.addEventListener('click', showConstants);
+
+
 })
