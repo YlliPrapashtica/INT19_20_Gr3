@@ -34,6 +34,16 @@ function drop(ev) {
   var data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementById(data));
 }
+	
+	$(document).ready(function(){
+  $("#likebuton").click(function(){
+    $("ol").append(" <li>Like</li>");
+  });
+
+  $("#dislikebuton").click(function(){
+    $("ol").append("<li>Dislkie</li>");
+  });
+});
 </script>
 </head>
 
