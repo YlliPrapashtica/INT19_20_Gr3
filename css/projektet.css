@@ -12,6 +12,12 @@ body{
 	background-color: lightgray;
 	margin: 10px 5% 10px 5%;
 	}
+
+#divlojera {
+		padding: 10px 10px 10px 10px;
+		background-color: lightgreen;
+		margin: 10px 5% 10px 5%;
+	}
 	
 .a1{
 	text-align: center;
