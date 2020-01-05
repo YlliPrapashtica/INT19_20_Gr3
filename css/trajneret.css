@@ -5,47 +5,37 @@ body{
 #ylli figure{
     width:65%;
     display: block;
-    margin-right: 20%;
-    border: 1px solid black;
 }
 #rigoni figure{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    display: block; 
     width:65%;
     padding: 20px;
-    border: 1px solid black;
     float: right;
+    margin-bottom: 200px;
+    margin-left:100%;
 }
-#rigoni{
-    
-    display:block;
-
+section nav ul{
+    width: auto;
+    font-size: 20px;
 }
-
 #rinesa figure{
-    margin-top: 10%;
-    margin-bottom: 10%;
     width:65%;
     display: block;
-    border: 1px solid black;
     padding: 20px;
+    margin-bottom: 200px;
 }
 
 #betim figure{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-left:100%;
     width:65%;
-    border: 1px solid black;
     display: block;
     float: right;
-    padding: 20px;
+    margin-bottom: 200px;
 }
 
 #jetlir figure{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 350px;
     width:65%;
     display: block;
     padding: 20px;
-    border: 1px solid black;
 }

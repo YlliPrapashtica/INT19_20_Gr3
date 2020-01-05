@@ -8,33 +8,42 @@
     <link rel="stylesheet" type="text/css" href="css/trajneret.css">
     <link rel='stylesheet' type='text/css' href='css/style.css'>
     <link rel="stylesheet" href="css/about.css">
+
+
+    <style>
+      article figure img{
+        border-radius: 50%;
+      }
+    
+    
+    </style>
 </head>
 <body>
     <header>
         <section >
           <img src="img/logomain.PNG" alt="logomain2" height="150" width="350">
-        <nav id="main">
-             <ul class="box">
-               <li><a href="index.html">Home</a></li>
-               <li class="dropdown"><a href="page2.html">Kurset</a>
-                <div class="dropdown-content">
-                     <a href=#kursetIT>Teknologji</a>
-                     <a href=#kursetGjuhet>Gjuhë</a>
-                     <a href="#">Kurse për fëmijë</a>
-                     <a href="#">Fitnes</a>
-                 </div>
-                 </li>
-               <li><a href="#">Full Width</a></li>
-               <li><a href="#">Drop Down</a></li>
-               <li><a href="AboutUs.html">Rreth Nesh</a></li>
-             </ul>
-          </nav>
+          <nav id="main">
+            <ul class="box">
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown"><a href="page2.html">Kurset</a>
+               <div class="dropdown-content">
+                <a href=page2.html href="#kursetIT">Teknologji</a>
+                <a href=page2.html href=#kursetGjuhet>Gjuhë</a>
+                <a href=page2.html href="#kursetperfemije">Kurse për fëmijë</a>
+                <a href=page2.html href="#kursetfitnes">Fitnes</a>
+              </div>
+              </li>
+              <li><a href="page3.html">Projektet Tona</a></li>
+              <li><a href="Trajneret.html">Trajneret Tone</a></li>
+              <li><a href="AboutUs.html">Rreth Nesh</a></li>
+            </ul>
+           </nav>
           </section>
         </header>
 
-        <div id="grid-item">
+        <div>
           <article  id="ylli" >
-            <figure><img src="img/bill.jpg" width="150" height="140" alt="profilepic">
+            <figure><img src="img/bill.jpg" width="150" height="140" alt="profilepic" style="border-radius: 50%;">
               <figcaption >
                 <p><i>Emri:</i><b> Ylli Prapashtica </b></p>
                 <p>Nder themeluesit e pare te shkolles sone.Arsimin parauniversitar e ka mbKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dheKompjuterikearuar ne Tiranë.Ka punuar në Ministrinë e Arsimit'Kosovë'.</p>
@@ -44,7 +53,7 @@
           </article> <br><br>
         </div>
         
-        <div id="grid-item">
+        <div>
           <article  id="betim" >
             <figure><img src="img/steve.jpg" width="150" height="140" alt="profilepic">
               <figcaption >
@@ -55,7 +64,7 @@
             </figure>
           </article>
         </div>
-        <div id="grid-item">
+        <div>
           <article id="rinesa">
             <figure><img src="img/mary.jpg" width="150" height="140" alt="profilepic">
               <figcaption>
@@ -66,7 +75,7 @@
             </figure>
           </article>
         </div>
-        <div class="grid-item">
+        <div>
           <article id="rigoni">
             <figure><img src="img/mark.jpg" width="150" height="140" alt="profilepic">
               <figcaption > 
@@ -77,7 +86,7 @@
             </figure>
           </article>
         </div>
-        <div class="grid-item">
+        <div>
           <article id="jetlir">
             <figure><img src="img/agon.jpg" width="150" height="140" alt="profilepic" align_content="center">
               <figcaption >
@@ -90,56 +99,10 @@
         </div>
       </div>
 
-        <!-- <fieldset>
-      <legend> <button>STAFI</button> </legend>
-      <section id="stafi">
-        <article   >
-          <figure><img src="img/bill.jpg" width="150" height="140" alt="profilepic">
-            <figcaption id="ylli">
-              <p><i>Emri:</i><b> Ylli Prapashtica </b></p>
-              <p>Nder themeluesit e pare te shkolles sone.Arsimin parauniversitar e ka mbKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dheKompjuterikearuar ne Tiranë.Ka punuar në Ministrinë e Arsimit'Kosovë'.</p>
-              <footer class="more"> </footer>
-            </figcaption>
-          </figure>
-        </article>
-        <article   >
-          <figure><img src="img/steve.jpg" width="150" height="140" alt="profilepic">
-            <figcaption id="betim">
-              <p><i>Emri:</i> <b> Betim Thaqi</b> </p>
-              <p>Sekretar i shkolles sone.Ka pefunduar Fakultetin EkonoKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe Kompjuterikemik.</p>
-              <footer class="more"> </footer>
-            </figcaption>
-          </figure>
-        </article>
-        <article   >
-          <figure><img src="img/mary.jpg" width="150" height="140" alt="profilepic">
-            <figcaption id="rinesa">
-              <p > <i>Emri:</i><b> Rinesa Muharremi </b></p>
-              <p>Mësimdhënese.Ka kryer specialKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe Kompjuterikeizime dhe trajtime në fushën e Teknologjisë së programimit.</p>
-              <footer class="more"> </footer>
-            </figcaption>
-          </figure>
-        </article>
-        <article >
-          <figure><img src="img/mark.jpg" width="150" height="140" alt="profilepic">
-            <figcaption id="rigon"> 
-              <p> <i>Emri:</i> <b> Rigon Pacarizi</b></p>
-              <p>Koordinator i cilësisë.Ka perfunuar FakulKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe Kompjuteriketetin e Inxhiniersë Elekerike dhe Kompjuterike në degën Kompjuterik.</p>
-              <footer class="more"> </footer>
-            </figcaption>
-          </figure>
-        </article>
-        <article >
-          <figure><img src="img/agon.jpg" width="150" height="140" alt="profilepic" align_content="center">
-            <figcaption id="jetlir">
-              <p><i>Emri:</i><b> Jetlir Gashi </b></p>
-              <p>Mësimdhënes, njohës i shtatë gjuhëve të ndryshme, i diplomuKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe KompjuterikeKoordinator i cilësisë.Ka perfunuar Fakultetin e Inxhiniersë Elekerike dhe Kompjuterikear në Universitetin e Sheffield.</p>
-              <footer class="more"> </footer>
-            </figcaption>
-          </figure>
-        </article>
-      </section>
-    </fieldset> -->
+      <footer class="content footer" style="background-color: #CBC8BE;">
+        <p id="fl_left">Copyright &copy; 2008 - All Rights Reserved - ELT Courses</p>
+        <p id="fl_right">Template by <a href="https://www.os-templates.com/" title="Os Template">OS Templates</a></p>
+      </footer>
 
 
 
