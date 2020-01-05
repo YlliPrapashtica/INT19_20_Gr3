@@ -1,5 +1,10 @@
 body{
     font-size: 34px;
+    border: 1px dashed wheat;
+    column-count: 1;
+    column-width: 50%;
+    column-fill: balance;
+    align-items: center;
 }
 
 #ylli figure{
@@ -8,15 +13,12 @@ body{
 }
 #rigoni figure{
     display: block; 
+    float:right;
+    margin-left: 100%;
     width:65%;
     padding: 20px;
-    float: right;
     margin-bottom: 200px;
-    margin-left:100%;
-}
-section nav ul{
-    width: auto;
-    font-size: 20px;
+
 }
 #rinesa figure{
     width:65%;
@@ -26,10 +28,10 @@ section nav ul{
 }
 
 #betim figure{
-    margin-left:100%;
     width:65%;
     display: block;
     float: right;
+    margin-left: 100%;
     margin-bottom: 200px;
 }
 
@@ -38,4 +40,16 @@ section nav ul{
     width:65%;
     display: block;
     padding: 20px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+
+section nav ul{
+    font-size: 20px;
+}
+#main{
+    margin-top: 50px;
 }
