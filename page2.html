@@ -13,8 +13,30 @@
 	  margin-top: 80px;
 	  margin-left: 120px;
 	}
+	#dragdrop {
+	  width: 350px;
+	  height: 70px;
+	  padding: 10px;
+	  border: 1px solid #aaaaaa;
+	}
 	</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
 </head>
+
 <body>
 <header>
 <section >
@@ -269,8 +291,13 @@
 											</figure>
 										</article>
 								</fieldset>
+								<div style="margin-top: 20px;">
+								<p>Qofse keni perfunduar te gjitha kurset bejeni logon drop ketu</p>
 
-
+								<div id="dragdrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+								<br>
+								<img id="drag1" src="img/logomain.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+<div>
 <div class="content">
 								    <table>
 								      <thead>
