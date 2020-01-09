@@ -8,6 +8,82 @@
     <meta name="HandheldFriendly" content="true">
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+
+    function myFunction1() {
+      var dots = document.getElementById("dots1");
+      var moreText = document.getElementById("morejs1");
+      var btnText = document.getElementById("myBtn1");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more &raquo;";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less &raquo;";
+        moreText.style.display = "inline";
+      }
+    }
+
+    function myFunction2() {
+      var dots = document.getElementById("dots2");
+      var moreText = document.getElementById("morejs2");
+      var btnText = document.getElementById("myBtn2");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more &raquo;";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less &raquo;";
+        moreText.style.display = "inline";
+      }
+    }
+
+    function myFunction3() {
+      var dots = document.getElementById("dots3");
+      var moreText = document.getElementById("morejs3");
+      var btnText = document.getElementById("myBtn3");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more &raquo;";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less &raquo;";
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
 </head>
 <body>
     <header>
